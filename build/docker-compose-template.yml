@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  web:
+    image: ${REPO_PREFIX}/${IMAGE_NAME}:${IMAGE_TAG}
+    ports:
+      - 8001:80
+    volumes:
+      - ${LOG_VOLUME}_logs:/var/log/nginx
+    deploy:
+      mode: replicated
+      replicas: 1
+
+volumes:
+  ${LOG_VOLUME}_logs: {}
