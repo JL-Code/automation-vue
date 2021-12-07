@@ -44,7 +44,9 @@ fix(server): send cors headers
 feat(blog): add comment section
 ```
 
-配置 `commitlint.config.js` 文件
+设置 commit 规则
+
+配置 `commitlint.config.js` 文件 [用于配置 commitlint](https://commitlint.js.org/#/?id=getting-started)
 
 ```js
 module.exports = {
@@ -77,6 +79,10 @@ module.exports = {
 }
 ```
 
-设置 commit 规则
+## 效果图
 
-(commitlint rule)[https://commitlint.js.org/#/?id=getting-started]
+### GUI 提交验证
+
+![SourceTree提交失败场景](./assets/SourceTree提交失败场景.png)
+
+![VSCode提交失败场景](./assets/VSCode提交失败场景.png)
