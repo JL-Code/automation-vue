@@ -2,7 +2,7 @@
 
 ## TODO
 
-1. commit message 规范化
+1. commit message 规范化【GUI 工具提交如何管控？】
 2. 自动生成 CHANGELOG
 3. 集成 Jenkins Pipeline CICD
 
