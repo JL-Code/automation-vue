@@ -6,7 +6,6 @@
 2. 自动生成 CHANGELOG
 3. 集成 Jenkins Pipeline CICD
 
-
 ## commitlint 规范提交
 
 ### 依赖安装
