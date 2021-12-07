@@ -1,33 +1,3 @@
-# automation-vue
-
-## TODO
-
-1. commit message 规范化
-2. 自动生成 CHANGELOG
-3. 集成 Jenkins Pipeline CICD
-
-
-## commitlint 规范提交
-
-### 依赖安装
-
-```shell
-npm install @commitlint/config-conventional --save-dev
-npm install @commitlint/cli --save-dev
-npm install @commitlint/parse --save-dev
-```
-
-vue-cli 创建的项目通过在 package.json 中 `gitHooks` 开启 commitlint。
-
-```json
-"gitHooks": {
-  "commit-msg": "commitlint -E GIT_PARAMS"
-}
-```
-
-配置 .commitlint.js 文件
-
-```js
 module.exports = {
   extends: ["@commitlint/config-conventional"],
   parserPreset: {
@@ -55,5 +25,4 @@ module.exports = {
       ],
     ],
   },
-}
-```
+};
