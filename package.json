@@ -8,42 +8,6 @@
     "lint": "vue-cli-service lint",
     "release": "standard-version"
   },
-  "standard-version": {
-    "types": [
-      {
-        "type": "feat",
-        "section": "Features"
-      },
-      {
-        "type": "fix",
-        "section": "Bug Fixes"
-      },
-      {
-        "type": "chore",
-        "hidden": true
-      },
-      {
-        "type": "docs",
-        "hidden": true
-      },
-      {
-        "type": "style",
-        "hidden": true
-      },
-      {
-        "type": "refactor",
-        "hidden": true
-      },
-      {
-        "type": "perf",
-        "hidden": true
-      },
-      {
-        "type": "test",
-        "hidden": true
-      }
-    ]
-  },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
