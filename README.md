@@ -1,24 +1,7 @@
 # automation-vue
 
-## Project setup
-```
-npm install
-```
+## TODO
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. commit message 规范化
+2. 自动生成 CHANGELOG
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
