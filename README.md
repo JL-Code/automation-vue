@@ -25,7 +25,8 @@ vue-cli 创建的项目通过在 package.json 中 `gitHooks` 开启 commitlint�
 ```
 
 提交规范：
-
+> https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
+> https://www.conventionalcommits.org/en/v1.0.0/
 ```sh
 type(scope?): subject # scope is optional; multiple scopes are supported (current delimiter options: "/", "\" and ",")
 ```
@@ -37,11 +38,11 @@ chore: run tests on travis ci
 ```
 
 ```sh
-fix(server): send cors headers
+fix(预算科目): 17453-预算科目参照表格高度未自适应
 ```
 
 ```sh
-feat(blog): add comment section
+feat: 7605-项目预算更新
 ```
 
 设置 commit 规则
