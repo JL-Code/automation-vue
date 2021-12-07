@@ -25,7 +25,27 @@ vue-cli 创建的项目通过在 package.json 中 `gitHooks` 开启 commitlint�
 }
 ```
 
-配置 .commitlint.js 文件
+提交规范：
+
+```sh
+type(scope?): subject # scope is optional; multiple scopes are supported (current delimiter options: "/", "\" and ",")
+```
+
+现实的例子：
+
+```sh
+chore: run tests on travis ci
+```
+
+```sh
+fix(server): send cors headers
+```
+
+```sh
+feat(blog): add comment section
+```
+
+配置 `commitlint.config.js` 文件
 
 ```js
 module.exports = {
@@ -57,3 +77,7 @@ module.exports = {
   },
 }
 ```
+
+设置 commit 规则
+
+(commitlint rule)[https://commitlint.js.org/#/?id=getting-started]
