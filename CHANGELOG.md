@@ -2,7 +2,7 @@
 ### [2.0.1](https://github.com/JL-Code/automation-vue/compare/v0.1.2...v2.0.1) (2021-12-07)
 
 
-### Features
+### ♻️ ⚙️ Features 🚀  ⚡️
 
 * 0001-增加commitlint相关依赖及配置文件 ([e4c113d](https://github.com/JL-Code/automation-vue/commit/e4c113d1503e46a62b6c32c4aa04883b77711ac9))
 * 0002-增加commitlint相关依赖及配置文件 ([5803d72](https://github.com/JL-Code/automation-vue/commit/5803d72ab09f6ada371712a8c5a94d2f7ff3ef2e))

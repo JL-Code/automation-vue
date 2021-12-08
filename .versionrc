@@ -13,11 +13,11 @@
   "types": [
     {
       "type": "feat",
-      "section": "Features"
+      "section": "✨ Features | 新功能"
     },
     {
       "type": "fix",
-      "section": "Bug Fixes"
+      "section": "🐛 Bug Fixes | 修复缺陷"
     },
     {
       "type": "chore",
@@ -33,11 +33,13 @@
     },
     {
       "type": "refactor",
-      "hidden": true
+      "hidden": true,
+      "section": "🪄 重构代码。不包括 bug 修复、功能新增"
     },
     {
       "type": "perf",
-      "hidden": true
+      "hidden": true,
+      "section": "🚀 性能优化"
     },
     {
       "type": "test",
