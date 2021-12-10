@@ -16,6 +16,12 @@
 
 > 📢：Windows 下依赖要全局安装。避免使用 GUI 提交时 commitlint 报错。 https://commitlint.js.org/#/
 >
+> ```sh
+> npm install -g @commitlint/cli @commitlint/config-conventional
+> ```
+>
+> 
+>
 > <img src="assets/image-20211209194125329.png" alt="image-20211209194125329" style="zoom:33%; border:1px solid #aaccdd" />
 
 ```shell
