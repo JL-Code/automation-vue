@@ -1,8 +1,6 @@
 变更日志
-### [0.0.1-ecs](https://github.com/JL-Code/automation-vue/compare/v0.0.1...v0.0.1-ecs) (2021-12-12)
 
 ### [0.0.1](https://github.com/JL-Code/automation-vue/compare/v2.2.1...v0.0.1) (2021-12-12)
-
 
 ### ✨ Features | 新功能
 
