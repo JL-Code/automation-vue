@@ -1,4 +1,16 @@
 变更日志
+## [2.2.0](https://github.com/JL-Code/automation-vue/compare/v2.1.0...v2.2.0) (2021-12-12)
+
+
+### 🐛 Bug Fixes | 修复缺陷
+
+* 修正markdown语法警告 ([34caba8](https://github.com/JL-Code/automation-vue/commit/34caba86f7a01e0cd67981ddcfd6ae9b38eac2ac))
+
+
+### ✨ Features | 新功能
+
+* 修改页面语言描述为中文 ([a035bd9](https://github.com/JL-Code/automation-vue/commit/a035bd9a9f4a42a65e4e67a842cbfe58cc0104f6))
+
 ## [2.1.0](https://github.com/JL-Code/automation-vue/compare/v2.0.2...v2.1.0) (2021-12-12)
 
 
