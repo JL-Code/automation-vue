@@ -157,11 +157,12 @@ npm install standard-version --save-dev
 * `npm run release -- --dry-run` 用于调试，改命令不会真正执行发版动作只会打印执行动作信息。
 * `npm run release` 发版
   * --first-release 第一次发版
-  * --release-as <name> 指定版本 eg: `npm run release -- --release-as 1.0.0.0301.00` 
+  * --release-as | -r <name> 指定版本 eg: 执行 `npm run release -- --release-as 1.0.0.0301.00` 输出 `1.0.0.0301.00`
     * major 主版本
     * minor 次版本
     * patch 修订号
-  * --prerelease [name] 预发版本 eg: `npm run release -- --prerelease alpha`
+  * --prerelease | -p [name] 预发版本 eg: 当前版本 2.0.0 ，执行 `npm run release -- --prerelease alpha` 输出 `2.0.0-alpha.0`
+  * --tag-prefix | -t 版本前缀 eg: 当前版本 2.0.0，执行 `npm run release --tag-prefix "ecs"` 输出 `stable-v2.0.0`
   * --dry-run 试运行，打印出要执行的命令，不会提交代码。
   * --no-verify 不触发 `gitHooks`
   * --help 帮助
