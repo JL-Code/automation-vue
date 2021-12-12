@@ -1,4 +1,11 @@
 变更日志
+## [2.3.0](https://github.com/JL-Code/automation-vue/compare/v2.2.0...v2.3.0) (2021-12-12)
+
+
+### ✨ Features | 新功能
+
+* 更新home页面描述信息-dev ([26d2225](https://github.com/JL-Code/automation-vue/commit/26d22256c6068af838224917b1209ca1c10028b7))
+
 ## [2.2.0](https://github.com/JL-Code/automation-vue/compare/v2.1.0...v2.2.0) (2021-12-12)
 
 
