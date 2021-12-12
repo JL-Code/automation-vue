@@ -117,6 +117,18 @@ module.exports = {
 
 ## standard-version
 
+### 语义版本
+
+> https://semver.org/lang/zh-CN/
+
+版本格式：主版本号.次版本号.修订号，版本号递增规则如下：
+
+1. 主版本号：当你做了不兼容的 API 修改，
+2. 次版本号：当你做了向下兼容的功能性新增，
+3. 修订号：当你做了向下兼容的问题修正。
+
+先行版本号及版本编译信息可以加到“主版本号.次版本号.修订号”的后面，作为延伸。
+
 ### 安装依赖
 
 ```sh
@@ -145,6 +157,9 @@ npm install standard-version --save-dev
 * `npm run release` 发版
   * --first-release 第一次发版
   * --release-as <name> 指定版本 eg: `npm run release -- --release-as 1.0.0.0301.00` 
+    * major 主版本
+    * minor 次版本
+    * patch 修订号
   * --prerelease [name] 预发版本 eg: `npm run release -- --prerelease alpha`
   * --dry-run 试运行，打印出要执行的命令，不会提交代码。
   * --no-verify 不触发 `gitHooks`
