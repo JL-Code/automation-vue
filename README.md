@@ -162,7 +162,7 @@ npm install standard-version --save-dev
     * minor 次版本
     * patch 修订号
   * --prerelease | -p [name] 预发版本 eg: 当前版本 2.0.0 ，执行 `npm run release -- --prerelease alpha` 输出 `2.0.0-alpha.0`
-  * --tag-prefix | -t 版本前缀 eg: 当前版本 2.0.0，执行 `npm run release --tag-prefix "ecs"` 输出 `stable-v2.0.0`
+  * --tag-prefix | -t 版本前缀 eg: 当前版本 2.0.0，执行 `npm run release --tag-prefix "ecs"` 输出 `ecs-2.0.0`
   * --dry-run 试运行，打印出要执行的命令，不会提交代码。
   * --no-verify 不触发 `gitHooks`
   * --help 帮助
