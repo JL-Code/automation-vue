@@ -113,8 +113,6 @@ module.exports = {
 
 <img src="./assets/VSCode提交失败场景.png" alt="c" style="zoom:30%;border:1px solid #aaccdd" />
 
-
-
 ## standard-version
 
 ### 语义版本
