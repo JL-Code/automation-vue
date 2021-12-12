@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="自动发布"/>
+    <HelloWorld msg="自动发布测试项目"/>
   </div>
 </template>
 
