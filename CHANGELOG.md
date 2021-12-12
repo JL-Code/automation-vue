@@ -1,4 +1,18 @@
 变更日志
+## [2.1.0](https://github.com/JL-Code/automation-vue/compare/v2.0.2...v2.1.0) (2021-12-12)
+
+
+### ✨ Features | 新功能
+
+* 调整页面标题 ([6d78be5](https://github.com/JL-Code/automation-vue/commit/6d78be51459f0b95473eb70d30d67f73781b478c))
+
+
+### 🐛 Bug Fixes | 修复缺陷
+
+* 增加缺少的版本号约束描述 ([448e29e](https://github.com/JL-Code/automation-vue/commit/448e29e97248a35734d15901e9d855f01bb64bcf))
+
+### [2.0.2](https://github.com/JL-Code/automation-vue/compare/v2.0.1...v2.0.2) (2021-12-12)
+
 ### [2.0.1](https://github.com/JL-Code/automation-vue/compare/v0.1.2...v2.0.1) (2021-12-07)
 
 
