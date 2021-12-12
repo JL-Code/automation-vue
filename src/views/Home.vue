@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="自动发布测试项目"/>
+    <HelloWorld msg="这是ecs分支专属"/>
   </div>
 </template>
 
