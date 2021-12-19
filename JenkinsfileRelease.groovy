@@ -2,6 +2,7 @@
 pipeline {
     agent any
     parameters {
+      string(name: 'version', defaultValue: '1.0.0', description: '版本号')
     }
     stages {
         stage('Config') {
