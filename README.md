@@ -22,7 +22,7 @@
 >
 > 
 >
-> <img src="assets/image-20211209194125329.png" alt="image-20211209194125329" style="zoom:33%; border:1px solid #aaccdd" />
+> <img src="assets/gui-commit-乱码.png" alt="image-20211209194125329" style="zoom:33%; border:1px solid #aaccdd" />
 
 ```shell
 npm install @commitlint/config-conventional @commitlint/cli @commitlint/parse --save-dev
@@ -101,7 +101,7 @@ module.exports = {
 
 ### Command Line 失败场景
 
-<img src="assets/image-20211209194440367.png" alt="image-20211209194440367" style="zoom:50%;border:1px solid #aaccdd" />
+<img src="assets/Command Line失败场景.png" alt="image-20211209194440367" style="zoom:50%;border:1px solid #aaccdd" />
 
 ### SourceTree 失败场景
 
@@ -148,7 +148,7 @@ npm install standard-version --save-dev
 
 默认情况下会把 commit 中 type 为 feat 的记录生成需求 log，fix 生成 bug 修复。如下图所示：
 
-<img src="assets/image-20211209140155227.png" alt="image-20211209140155227" style="zoom:50%;border:1px solid #aaccdd" />
+<img src="assets/image-chagnelog.png" alt="image-20211209140155227" style="zoom:50%;border:1px solid #aaccdd" />
 
 ### 常用命令
 
@@ -166,7 +166,7 @@ npm install standard-version --save-dev
   * --no-verify 不触发 `gitHooks`
   * --help 帮助
 
-<img src="assets/image-20211209132500003.png" alt="image-20211209132500003" style="zoom:35%;border:1px solid #aaccdd" />
+<img src="assets/image-standard-release.png" alt="image-20211209132500003" style="zoom:35%;border:1px solid #aaccdd" />
 
 ### 自定义配置
 

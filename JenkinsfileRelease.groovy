@@ -43,7 +43,7 @@ pipeline {
           }
           post {
             success {
-              sh 'tar -czf dist.tar.gz dist/'
+              sh """tar -czf dist.tar.gz dist/"""
               archiveArtifacts artifacts: """dist.tar.gz,.env.${params.ENV}""", fingerprint: true
             }
           }
