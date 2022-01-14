@@ -14,6 +14,12 @@
 * `@commitlint/config-conventional`
 * `@commitlint/parse`
 
+```shell
+npm install @commitlint/config-conventional @commitlint/cli @commitlint/parse --save-dev
+```
+
+
+
 > 📢：Windows 下依赖要全局安装。避免使用 GUI 提交时 commitlint 报错。 https://commitlint.js.org/#/
 >
 > ```sh
@@ -24,9 +30,7 @@
 >
 > <img src="assets/gui-commit-乱码.png" alt="image-20211209194125329" style="zoom:33%; border:1px solid #aaccdd" />
 
-```shell
-npm install @commitlint/config-conventional @commitlint/cli @commitlint/parse --save-dev
-```
+
 
 
 
@@ -141,9 +145,9 @@ npm install standard-version --save-dev
 在 `package.json` 的 `scripts` 增加 `release` 脚本，用于执行 `standard-version`
 
 ```json
-  "scripts": {
-    "release": "standard-version"
-  }
+"scripts": {
+  "release": "standard-version"
+}
 ```
 
 默认情况下会把 commit 中 type 为 feat 的记录生成需求 log，fix 生成 bug 修复。如下图所示：
