@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "node ./build-extension.js",
     "lint": "vue-cli-service lint",
-    "release": "standard-version"
+    "release": "standard-version",
+    "pushtag":"git push --follow-tags origin master"
   },
   "gitHooks": {
     "commit-msg": "commitlint -E GIT_PARAMS"

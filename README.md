@@ -119,6 +119,8 @@ module.exports = {
 
 ## standard-version
 
+一个按照[语义版本规范](https://semver.org/lang/zh-CN/)生成版本及变更日志的 js 插件。
+
 ### 语义版本
 
 > https://semver.org/lang/zh-CN/
@@ -133,6 +135,7 @@ module.exports = {
 
 先行版本号及版本编译信息可以加到“主版本号.次版本号.修订号”的后面，作为延伸。
 
+TODO: 搞清楚 standard-version 版本号的默认变化规则
 
 ### 安装依赖
 
@@ -158,7 +161,7 @@ npm install standard-version --save-dev
 
 > https://github.com/conventional-changelog/standard-version
 
-* `npm run release -- --dry-run` 用于调试，改命令不会真正执行发版动作只会打印执行动作信息。
+* `npm run release -- --dry-run` 用于调试，该命令**不会真正执行发布动作**只会打印执行动作信息。
 * `npm run release` 发版
   * --first-release 第一次发版
   * --release-as <name> 指定版本 eg: `npm run release -- --release-as 1.0.0.0301.00` 
@@ -208,4 +211,3 @@ standard-verion 可以通过 .versionrc .versionrc.json .versionrc.js 文件进�
   "url": "git+https://github.com/joyran/yi-blog.git"
 }
 ```
-
