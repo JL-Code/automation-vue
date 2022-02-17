@@ -119,6 +119,19 @@ module.exports = {
 
 ## standard-version
 
+> How It Works:
+
+> 1. Follow the Conventional Commits Specification in your repository.
+> 2. When you're ready to release, run standard-version.
+> 
+> standard-version will then do the following:
+> 
+> 1. Retrieve the current version of your repository by looking at packageFiles[1], falling back to the last git tag.
+> 2. bump the version in bumpFiles[1] based on your commits.
+> 3. Generates a changelog based on your commits (uses conventional-changelog under the hood).
+> 4. Creates a new commit including your bumpFiles[1] and updated CHANGELOG.
+> 5. Creates a new tag with the new version number.
+
 一个按照[语义版本规范](https://semver.org/lang/zh-CN/)生成版本及变更日志的 js 插件。
 
 ### 语义版本
@@ -201,8 +214,6 @@ standard-verion 可以通过 .versionrc .versionrc.json .versionrc.js 文件进�
 }
 ```
 
-
-
 `commit url` 默认取 package.json 中 repository.url
 
 ```json
@@ -211,6 +222,9 @@ standard-verion 可以通过 .versionrc .versionrc.json .versionrc.js 文件进�
   "url": "git+https://github.com/joyran/yi-blog.git"
 }
 ```
+
+### 自定义 updaters
+
 
 ## 其它
 
