@@ -7,7 +7,7 @@
     "build": "node ./build-extension.js",
     "lint": "vue-cli-service lint",
     "release": "standard-version",
-    "pushtag":"git push --follow-tags origin master"
+    "pushtag": "git push --follow-tags origin master"
   },
   "gitHooks": {
     "commit-msg": "commitlint -E GIT_PARAMS"
@@ -30,6 +30,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "git-last-commit": "^1.0.1",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
     "standard-version": "^9.3.2",

@@ -211,3 +211,27 @@ standard-verion 可以通过 .versionrc .versionrc.json .versionrc.js 文件进�
   "url": "git+https://github.com/joyran/yi-blog.git"
 }
 ```
+
+## 其它
+
+### manifest.json
+
+```json
+{
+  "app": {
+    "name": "expense-budget-service",
+    "version": "hotfix-ebs-supplement-contract-2",
+    "description": "费用预算管理",
+    "build": {
+      "timestamp": "2022-02-16 14:07:15"
+    }
+  },
+  "git": {
+    "branch": "hotfix-0001",
+    "commit": {
+      "id": "333ff6d",
+      "time": "2022-02-16 14:06:31"
+    }
+  }
+}
+```

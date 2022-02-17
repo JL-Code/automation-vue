@@ -1,0 +1,17 @@
+{
+	"app": {
+		"name": "expense-budget-service",
+		"version": "hotfix-ebs-supplement-contract-2",
+		"description": "费用预算管理",
+		"build": {
+			"timestamp": "2022-02-16 14:07:15"
+		}
+	},
+	"git": {
+		"branch": "gogs-dev",
+		"commit": {
+			"id": "b95215a",
+			"time": "2022-02-17 9:24:53"
+		}
+	}
+}

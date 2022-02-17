@@ -1,0 +1,8 @@
+@startuml 更新git信息的序列图
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+gitCli -> utilManifest:updateManifest(payload)
+utilManifest -> manifest.json:write
+@enduml
