@@ -2,7 +2,7 @@
 	"app": {
 		"code": "ebs",
 		"name": "expense-budget-pc",
-		"version": "2.4.5",
+		"version": "2.5.0",
 		"build": {
 			"timestamp": "2022-02-20 20:22:18"
 		}

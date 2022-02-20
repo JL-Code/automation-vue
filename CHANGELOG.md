@@ -1,4 +1,12 @@
 变更日志
+## [2.5.0](https://github.com/JL-Code/automation-vue/compare/v2.4.5...v2.5.0) (2022-02-20)
+
+
+### ✨ Features | 新功能
+
+* 增加 build-adapter 用于扩展 vue-cli build ([6101b0c](https://github.com/JL-Code/automation-vue/commit/6101b0cab6e7a1832062c8e4188f9d1c635d2bbb))
+* cbuild构建时生成git和build信息到manifest.json ([fa244be](https://github.com/JL-Code/automation-vue/commit/fa244be21515ab46d8b4f88ef68b248cfcf34f84))
+
 ### [2.4.5](https://github.com/JL-Code/automation-vue/compare/v2.4.4...v2.4.5) (2022-02-20)
 
 ### [2.4.4](https://github.com/JL-Code/automation-vue/compare/v2.4.3...v2.4.4) (2022-02-20)
