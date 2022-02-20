@@ -14,8 +14,8 @@ const path = require("path");
  */
 function updateBuild(payload, filepath) {
   const manifest = read(filepath);
-  const result = Object.assign({}, manifest.app.build, payload);
-  manifest.app.build = result.build;
+  const build = Object.assign({}, manifest.app.build, payload);
+  manifest.app.build = build;
   write(manifest, filepath);
 }
 

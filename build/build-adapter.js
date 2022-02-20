@@ -40,9 +40,7 @@ service
     if (command === "build") {
       gitCli.run();
       util.manifest.updateBuild({
-        build: {
-          timestamp: util.timestampToTime(Date.now()),
-        },
+        timestamp: util.timestampToTime(Date.now()),
       });
     }
   })
