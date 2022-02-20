@@ -1,4 +1,14 @@
 变更日志
+## [2.4.0](https://github.com/JL-Code/automation-vue/compare/v2.3.0...v2.4.0) (2022-02-20)
+
+
+### ✨ Features | 新功能
+
+* 添加standard-version custom updater ([b81d49e](https://github.com/JL-Code/automation-vue/commit/b81d49e3c4ac12a5dedcc9b67ed27f42c993daf6))
+* 增加 pushtag npm 命令 ([b95215a](https://github.com/JL-Code/automation-vue/commit/b95215a6cc82cfe99d0419d7333e5804786aa98b))
+* 增加git-info到manifest.json ([2dd78ab](https://github.com/JL-Code/automation-vue/commit/2dd78abc98501e419ada3315b723086da2f9a16f))
+* 增加json-viewer ([48aa391](https://github.com/JL-Code/automation-vue/commit/48aa391184d951fa7c5504dff49104f8876f9878))
+
 ## [2.3.0](https://github.com/JL-Code/automation-vue/compare/v2.2.0...v2.3.0) (2021-12-12)
 
 
