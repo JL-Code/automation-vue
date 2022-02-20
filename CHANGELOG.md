@@ -1,4 +1,11 @@
 变更日志
+### [2.4.4](https://github.com/JL-Code/automation-vue/compare/v2.4.3...v2.4.4) (2022-02-20)
+
+
+### 🐛 Bug Fixes | 修复缺陷
+
+* 移除custom-updater内容的文件写操作 ([bbc59c8](https://github.com/JL-Code/automation-vue/commit/bbc59c81142ef63de6925d3015419ad69945e560))
+
 ### [2.4.3](https://github.com/JL-Code/automation-vue/compare/v2.4.2...v2.4.3) (2022-02-20)
 
 ### [2.4.2](https://github.com/JL-Code/automation-vue/compare/v2.4.1...v2.4.2) (2022-02-20)
