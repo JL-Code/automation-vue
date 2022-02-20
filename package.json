@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "node ./build-extension.js",
+    "cbuild": "node build-adapter build",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "release": "standard-version",
     "pushtag": "git push --follow-tags origin master"
