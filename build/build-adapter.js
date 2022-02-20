@@ -1,4 +1,6 @@
 const Service = require("@vue/cli-service/lib/Service");
+const util = require("./util.js");
+const gitCli = require("./git-cli.js");
 
 // 实例化Service
 // VUE_CLI_CONTEXT为undefined，所以传入的值为process.cwd()及项目所在目录
@@ -25,14 +27,26 @@ const args = require("minimist")(rawArgv, {
 
 const command = args._[0];
 
-// console.log("service", service);
-console.log("process.argv", process.argv);
-console.log("command", command);
-console.log("args", args);
-console.log("rawArgv", rawArgv);
+// console.debug("service", service);
+// console.debug("process.argv", process.argv);
+// console.debug("command", command);
+// console.debug("args", args);
+// console.debug("rawArgv", rawArgv);
 
 // 执行service方法传入:'serve'、agrs、['serve','--open',...]
-service.run(command, args, rawArgv).catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+service
+  .run(command, args, rawArgv)
+  .then(() => {
+    if (command === "build") {
+      gitCli.run();
+      util.manifest.updateBuild({
+        build: {
+          timestamp: util.timestampToTime(Date.now()),
+        },
+      });
+    }
+  })
+  .catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
