@@ -29,6 +29,6 @@ module.exports = {
       ? (contents.app.version = version)
       : (contents.app = { version });
 
-    return JSON.stringify(contents);
+    return JSON.stringify(contents, null, "\t");
   },
 };
