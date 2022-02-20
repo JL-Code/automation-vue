@@ -1,4 +1,6 @@
 变更日志
+### [2.4.5](https://github.com/JL-Code/automation-vue/compare/v2.4.4...v2.4.5) (2022-02-20)
+
 ### [2.4.4](https://github.com/JL-Code/automation-vue/compare/v2.4.3...v2.4.4) (2022-02-20)
 
 

@@ -1,1 +1,18 @@
-{"app":{"name":"expense-budget-service","code":"ebs","version":"2.4.4","description":"费用预算管理","build":{"timestamp":"2022-02-16 14:07:15"}},"git":{"branch":"gogs-dev","commit":{"id":"b95215a","time":"2022-02-17 9:24:53"}}}
+{
+	"app": {
+		"name": "expense-budget-service",
+		"code": "ebs",
+		"version": "2.4.5",
+		"description": "费用预算管理",
+		"build": {
+			"timestamp": "2022-02-16 14:07:15"
+		}
+	},
+	"git": {
+		"branch": "gogs-dev",
+		"commit": {
+			"id": "b95215a",
+			"time": "2022-02-17 9:24:53"
+		}
+	}
+}
