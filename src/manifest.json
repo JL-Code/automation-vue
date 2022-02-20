@@ -1,6 +1,7 @@
 {
 	"app": {
 		"name": "expense-budget-service",
+		"code": "ebs",
 		"version": "hotfix-ebs-supplement-contract-2",
 		"description": "费用预算管理",
 		"build": {
