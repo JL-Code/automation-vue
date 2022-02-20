@@ -17,23 +17,29 @@ module.exports = {
     return versionJson;
   },
   readVersion(contents) {
-    console.log("readVersion", contents);
+    console.debug("readVersion", contents);
     const {
       app: { version },
     } = this.toJson(contents);
     return version;
   },
   writeVersion(contents, version) {
-    console.log("writeVersion", contents);
-    console.log("writeVersion", version);
+    console.debug("writeVersion", contents);
+    console.debug("writeVersion", version);
+
+    contents = this.toJson(contents);
 
     contents.app
       ? (contents.app.version = version)
       : (contents.app = { version });
 
+    // TODO: filepath 可以从 standard 中获取吗？
     // 写入文件
-    const filepath =
-      filepath || path.resolve(process.cwd(), "src", "manifest.json");
-    fs.writeFileSync(filepath, contents);
+    const filepath = path.resolve(process.cwd(), "src", "manifest.json");
+    if (fs.existsSync(filepath)) {
+      fs.writeFileSync(filepath, contents);
+    } else {
+      console.error("未找到版本文件", filepath);
+    }
   },
 };
