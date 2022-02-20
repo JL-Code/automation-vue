@@ -1,4 +1,11 @@
 变更日志
+### [2.4.2](https://github.com/JL-Code/automation-vue/compare/v2.4.1...v2.4.2) (2022-02-20)
+
+
+### 🐛 Bug Fixes | 修复缺陷
+
+* 修复writeVersion 方法逻辑错误 ([2931822](https://github.com/JL-Code/automation-vue/commit/2931822a6885aad41863eb5f8755147f187d01c7))
+
 ### [2.4.1](https://github.com/JL-Code/automation-vue/compare/v2.4.0...v2.4.1) (2022-02-20)
 
 ## [2.4.0](https://github.com/JL-Code/automation-vue/compare/v2.3.0...v2.4.0) (2022-02-20)
