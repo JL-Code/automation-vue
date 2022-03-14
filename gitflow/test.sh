@@ -1,5 +1,7 @@
 #!/bin/bash
-. "./shflags/shflags"
+echo "当前执行脚本路径：$0"
+
+. "./shflags"
 
 cmd_finish() {
 
@@ -160,6 +162,9 @@ usage() {
 # Common functionality
 # shell output
 warn() { echo "$@" >&2; }
-die() { warn "$@"; exit 1; }
+die() {
+  warn "$@"
+  exit 1
+}
 
 cmd_finish "$@"
