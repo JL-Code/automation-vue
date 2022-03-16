@@ -27,8 +27,10 @@ cmd_finish() {
   if [ "$FLAGS_signingkey" != "" ]; then
     FLAGS_sign=$FLAGS_TRUE
   fi
-
-  # sanity checks
+  echo "ORIGIN:$ORIGIN"
+  echo "BRANCH:$BRANCH"
+  echo "MASTER_BRANCH:$MASTER_BRANCH"
+  echo "DEVELOP_BRANCH:$DEVELOP_BRANCH"
   # 健全性检查
   require_branch "$BRANCH"
   require_clean_working_tree
@@ -44,91 +46,19 @@ cmd_finish() {
   if has "$ORIGIN/$DEVELOP_BRANCH" $(git_remote_branches); then
     require_branches_equal "$DEVELOP_BRANCH" "$ORIGIN/$DEVELOP_BRANCH"
   fi
+}
 
-  # # try to merge into master
-  # # in case a previous attempt to finish this release branch has failed,
-  # # but the merge into master was successful, we skip it now
-  # # 尝试合并到 master
-  # # 如果之前尝试完成此发布分支失败，
-  # # 但是合并到 master 是成功的，我们现在跳过它
-  # if ! git_is_branch_merged_into "$BRANCH" "$MASTER_BRANCH"; then
-  #   git_do checkout "$MASTER_BRANCH" ||
-  #     die "Could not check out $MASTER_BRANCH."
-  #   git_do merge --no-ff "$BRANCH" ||
-  #     die "There were merge conflicts."
-  #   # TODO: What do we do now?
-  # fi
-
-  # if noflag notag; then
-  #   # try to tag the release
-  #   # in case a previous attempt to finish this release branch has failed,
-  #   # but the tag was set successful, we skip it now
-  #   # 尝试标记版本
-  #   # 如果之前尝试完成此发布分支失败，
-  #   # 但是标签设置成功，我们现在跳过它
-  #   local tagname=$VERSION_PREFIX$VERSION
-  #   if ! git_tag_exists "$tagname"; then
-  #     local opts="-a"
-  #     flag sign && opts="$opts -s"
-  #     [ "$FLAGS_signingkey" != "" ] && opts="$opts -u '$FLAGS_signingkey'"
-  #     [ "$FLAGS_message" != "" ] && opts="$opts -m '$FLAGS_message'"
-  #     [ "$FLAGS_messagefile" != "" ] && opts="$opts -F '$FLAGS_messagefile'"
-  #     eval git_do tag $opts "$VERSION_PREFIX$VERSION" "$BRANCH" ||
-  #       die "Tagging failed. Please run finish again to retry."
-  #   fi
-  # fi
-
-  # # try to merge into develop
-  # # in case a previous attempt to finish this release branch has failed,
-  # # but the merge into develop was successful, we skip it now
-  # # 尝试合并到 develop
-  # # 如果之前尝试完成此发布分支失败，
-  # # 但是合并到 develop 是成功的，我们现在跳过它
-  # if ! git_is_branch_merged_into "$BRANCH" "$DEVELOP_BRANCH"; then
-  #   git_do checkout "$DEVELOP_BRANCH" ||
-  #     die "Could not check out $DEVELOP_BRANCH."
-
-  #   # TODO: Actually, accounting for 'git describe' pays, so we should
-  #   # ideally git merge --no-ff $tagname here, instead!
-  #   git_do merge --no-ff "$BRANCH" ||
-  #     die "There were merge conflicts."
-  #   # TODO: What do we do now?
-  # fi
-
-  # # delete branch
-  # # 删除分支
-  # if noflag keep; then
-  #   git_do branch -d "$BRANCH"
-  # fi
-
-  # if flag push; then
-  #   git_do push "$ORIGIN" "$DEVELOP_BRANCH" ||
-  #     die "Could not push to $DEVELOP_BRANCH from $ORIGIN."
-  #   git_do push "$ORIGIN" "$MASTER_BRANCH" ||
-  #     die "Could not push to $MASTER_BRANCH from $ORIGIN."
-  #   if noflag notag; then
-  #     git_do push --tags "$ORIGIN" ||
-  #       die "Could not push tags to $ORIGIN."
-  #   fi
-  # fi
-
-  # echo
-  # echo "Summary of actions:"
-  # echo "- Latest objects have been fetched from '$ORIGIN'"
-  # echo "- Hotfix branch has been merged into '$MASTER_BRANCH'"
-  # if noflag notag; then
-  #   echo "- The hotfix was tagged '$VERSION_PREFIX$VERSION'"
-  # fi
-  # echo "- Hotfix branch has been back-merged into '$DEVELOP_BRANCH'"
-  # if flag keep; then
-  #   echo "- Hotfix branch '$BRANCH' is still available"
-  # else
-  #   echo "- Hotfix branch '$BRANCH' has been deleted"
-  # fi
-  # if flag push; then
-  #   echo "- '$DEVELOP_BRANCH', '$MASTER_BRANCH' and tags have been pushed to '$ORIGIN'"
-  # fi
-  # echo
+# convenience functions for checking shFlags flags
+# 用于检查 shFlags 标志的便利功能
+flag() {
+  local FLAG
+  eval FLAG='$FLAGS_'$1
+  [ $FLAG -eq $FLAGS_TRUE ]
+}
+noflag() {
+  local FLAG
+  eval FLAG='$FLAGS_'$1
+  [ $FLAG -ne $FLAGS_TRUE ]
 }
 
 parse_args() {
@@ -136,7 +66,7 @@ parse_args() {
   # 解析选项
   FLAGS "$@" || exit $?
   eval set -- "${FLAGS_ARGV}"
-
+  echo "FLAGS_ARGV: $FLAGS_ARGV"
   # read arguments into global variables
   # 将参数读入全局变量
   VERSION=$1
@@ -149,6 +79,62 @@ require_version_arg() {
     usage
     exit 1
   fi
+}
+
+require_branch() {
+  if ! has $1 $(git_all_branches); then
+    die "Branch '$1' does not exist and is required."
+  fi
+}
+
+require_clean_working_tree() {
+  git_is_clean_working_tree
+  local result=$?
+  if [ $result -eq 1 ]; then
+    die "fatal: 工作树包含未暂存的更改。中止。"
+  fi
+  if [ $result -eq 2 ]; then
+    die "fatal: 索引包含未提交的更改。中止。"
+  fi
+}
+
+#
+# Git common function
+#
+git_local_branches() { git branch --no-color | sed 's/^[* ] //'; }
+git_remote_branches() { git branch -r --no-color | sed 's/^[* ] //'; }
+git_all_branches() { (
+  git branch --no-color
+  git branch -r --no-color
+) | sed 's/^[* ] //'; }
+git_all_tags() { git tag; }
+
+git_current_branch() {
+  git branch --no-color | grep '^\* ' | grep -v 'no branch' | sed 's/^* //g'
+}
+
+git_all_branches() { (
+  git branch --no-color
+  git branch -r --no-color
+) | sed 's/^[* ] //'; }
+
+git_is_clean_working_tree() {
+  if ! git diff --no-ext-diff --ignore-submodules --quiet --exit-code; then
+    return 1
+  elif ! git diff-index --cached --quiet --ignore-submodules HEAD --; then
+    return 2
+  else
+    return 0
+  fi
+}
+
+git_do() {
+  # equivalent to git, used to indicate actions that make modifications
+  # 等效于 git，用于指示进行修改的操作
+  if flag show_commands; then
+    echo "git $@" >&2
+  fi
+  git "$@"
 }
 
 usage() {
@@ -165,6 +151,17 @@ warn() { echo "$@" >&2; }
 die() {
   warn "$@"
   exit 1
+}
+
+escape() {
+  echo "$1" | sed 's/\([\.\$\*]\)/\\\1/g'
+}
+
+# set logic
+has() {
+  local item=$1
+  shift
+  echo " $@ " | grep -q " $(escape $item) "
 }
 
 cmd_finish "$@"
