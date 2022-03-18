@@ -9,11 +9,11 @@ init() {
   # require_gitflow_initialized
   gitflow_load_settings
   VERSION_PREFIX=$(eval "echo $(git config --get gitflow.prefix.versiontag)") # 获取版本前缀
-  PREFIX=$(git config --get gitflow.prefix.hotfix) # 获取 hotfix 版本前缀
+  PREFIX=$(git config --get gitflow.prefix.hotfix)                            # 获取 hotfix 版本前缀
 }
 
 cmd_finish() {
-
+  init
   # define a 'fetch' command-line boolean flag
   # shflgs 语法： DEFINE_xxx 标志 标志默认值 标志描述 短标志
   # eg: DEFINE_string 'name' 'world' 'name to say hello to' 'n'
@@ -55,6 +55,91 @@ cmd_finish() {
   if has "$ORIGIN/$DEVELOP_BRANCH" $(git_remote_branches); then
     require_branches_equal "$DEVELOP_BRANCH" "$ORIGIN/$DEVELOP_BRANCH"
   fi
+
+  # try to merge into master
+  # in case a previous attempt to finish this release branch has failed,
+  # but the merge into master was successful, we skip it now
+  # 尝试合并到 master
+  # 如果之前尝试完成此发布分支失败，
+  # 但是合并到 master 是成功的，我们现在跳过它
+  if ! git_is_branch_merged_into "$BRANCH" "$MASTER_BRANCH"; then
+    git_do checkout "$MASTER_BRANCH" ||
+      die "Could not check out $MASTER_BRANCH."
+    git_do merge --no-ff "$BRANCH" ||
+      die "There were merge conflicts."
+    # TODO: What do we do now?
+  fi
+
+  if noflag notag; then
+    # try to tag the release
+    # in case a previous attempt to finish this release branch has failed,
+    # but the tag was set successful, we skip it now
+    # 尝试标记发布信息
+    # 如果之前尝试完成此发布分支失败，
+    # 但是标签设置成功，我们现在跳过它
+    local tagname=$VERSION_PREFIX$VERSION
+    if ! git_tag_exists "$tagname"; then
+      local opts="-a"
+      flag sign && opts="$opts -s"
+      [ "$FLAGS_signingkey" != "" ] && opts="$opts -u '$FLAGS_signingkey'"
+      [ "$FLAGS_message" != "" ] && opts="$opts -m '$FLAGS_message'"
+      [ "$FLAGS_messagefile" != "" ] && opts="$opts -F '$FLAGS_messagefile'"
+      eval git_do tag $opts "$VERSION_PREFIX$VERSION" "$BRANCH" ||
+        die "Tagging failed. Please run finish again to retry."
+    fi
+  fi
+
+  # try to merge into develop
+  # in case a previous attempt to finish this release branch has failed,
+  # but the merge into develop was successful, we skip it now
+  # 尝试合并到 develop
+  # 如果之前尝试完成此发布分支失败，
+  # 但是合并到 develop 是成功的，我们现在跳过它
+  if ! git_is_branch_merged_into "$BRANCH" "$DEVELOP_BRANCH"; then
+    git_do checkout "$DEVELOP_BRANCH" ||
+      die "Could not check out $DEVELOP_BRANCH."
+
+    # TODO: Actually, accounting for 'git describe' pays, so we should
+    # ideally git merge --no-ff $tagname here, instead!
+    git_do merge --no-ff "$BRANCH" ||
+      die "There were merge conflicts."
+    # TODO: What do we do now?
+  fi
+
+  # delete branch
+  # 删除分支
+  if noflag keep; then
+    git_do branch -d "$BRANCH"
+  fi
+
+  if flag push; then
+    git_do push "$ORIGIN" "$DEVELOP_BRANCH" ||
+      die "Could not push to $DEVELOP_BRANCH from $ORIGIN."
+    git_do push "$ORIGIN" "$MASTER_BRANCH" ||
+      die "Could not push to $MASTER_BRANCH from $ORIGIN."
+    if noflag notag; then
+      git_do push --tags "$ORIGIN" ||
+        die "Could not push tags to $ORIGIN."
+    fi
+  fi
+
+  echo
+  echo "Summary of actions:"
+  echo "- Latest objects have been fetched from '$ORIGIN'"
+  echo "- Hotfix branch has been merged into '$MASTER_BRANCH'"
+  if noflag notag; then
+    echo "- The hotfix was tagged '$VERSION_PREFIX$VERSION'"
+  fi
+  echo "- Hotfix branch has been back-merged into '$DEVELOP_BRANCH'"
+  if flag keep; then
+    echo "- Hotfix branch '$BRANCH' is still available"
+  else
+    echo "- Hotfix branch '$BRANCH' has been deleted"
+  fi
+  if flag push; then
+    echo "- '$DEVELOP_BRANCH', '$MASTER_BRANCH' and tags have been pushed to '$ORIGIN'"
+  fi
+  echo
 }
 
 # convenience functions for checking shFlags flags
@@ -97,20 +182,20 @@ require_branch() {
 }
 
 #
-# Assertions for use in git-flow subcommands 
+# Assertions for use in git-flow subcommands
 # 在 gitflow 子命令中使用的断言
 #
 
 require_git_repo() {
-	if ! git rev-parse --git-dir >/dev/null 2>&1; then
-		die "fatal: Not a git repository"
-	fi
+  if ! git rev-parse --git-dir >/dev/null 2>&1; then
+    die "fatal: Not a git repository"
+  fi
 }
 # 检查是否已经初始化 gitflow
 require_gitflow_initialized() {
-	if ! gitflow_is_initialized; then
-		die "fatal: Not a gitflow-enabled repo yet. Please run \"git flow init\" first."
-	fi
+  if ! gitflow_is_initialized; then
+    die "fatal: Not a gitflow-enabled repo yet. Please run \"git flow init\" first."
+  fi
 }
 
 require_clean_working_tree() {
