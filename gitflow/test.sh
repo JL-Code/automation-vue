@@ -363,4 +363,4 @@ gitflow_load_settings() {
 }
 
 # cmd_finish "$@"
-cmd_finish "21262"
+cmd_finish "21262" -m="test.sh hotfix finish"
