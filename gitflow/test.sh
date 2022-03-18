@@ -3,6 +3,15 @@ echo "当前执行脚本路径：$0"
 
 . "./shflags"
 
+# 谁在什么时候调用了？
+init() {
+  require_git_repo
+  # require_gitflow_initialized
+  gitflow_load_settings
+  VERSION_PREFIX=$(eval "echo $(git config --get gitflow.prefix.versiontag)") # 获取版本前缀
+  PREFIX=$(git config --get gitflow.prefix.hotfix) # 获取 hotfix 版本前缀
+}
+
 cmd_finish() {
 
   # define a 'fetch' command-line boolean flag
@@ -36,9 +45,9 @@ cmd_finish() {
   require_clean_working_tree
   if flag fetch; then
     git_do fetch -q "$ORIGIN" "$MASTER_BRANCH" ||
-      die "Could not fetch $MASTER_BRANCH from $ORIGIN."
+      die "无法获取 $MASTER_BRANCH 从 $ORIGIN."
     git_do fetch -q "$ORIGIN" "$DEVELOP_BRANCH" ||
-      die "Could not fetch $DEVELOP_BRANCH from $ORIGIN."
+      die "无法获取 $DEVELOP_BRANCH 从 $ORIGIN."
   fi
   if has "$ORIGIN/$MASTER_BRANCH" $(git_remote_branches); then
     require_branches_equal "$MASTER_BRANCH" "$ORIGIN/$MASTER_BRANCH"
@@ -87,6 +96,23 @@ require_branch() {
   fi
 }
 
+#
+# Assertions for use in git-flow subcommands 
+# 在 gitflow 子命令中使用的断言
+#
+
+require_git_repo() {
+	if ! git rev-parse --git-dir >/dev/null 2>&1; then
+		die "fatal: Not a git repository"
+	fi
+}
+# 检查是否已经初始化 gitflow
+require_gitflow_initialized() {
+	if ! gitflow_is_initialized; then
+		die "fatal: Not a gitflow-enabled repo yet. Please run \"git flow init\" first."
+	fi
+}
+
 require_clean_working_tree() {
   git_is_clean_working_tree
   local result=$?
@@ -129,8 +155,6 @@ git_is_clean_working_tree() {
   fi
 }
 
-
-
 # git_compare_branches()
 
 # Tests whether branches and their "origin" counterparts have diverged and need
@@ -143,22 +167,22 @@ git_is_clean_working_tree() {
 # 4    There is no merge base, i.e. the branches have no common ancestors
 
 git_compare_branches() {
-	local commit1=$(git rev-parse "$1")
-	local commit2=$(git rev-parse "$2")
-	if [ "$commit1" != "$commit2" ]; then
-		local base=$(git merge-base "$commit1" "$commit2")
-		if [ $? -ne 0 ]; then
-			return 4
-		elif [ "$commit1" = "$base" ]; then
-			return 1
-		elif [ "$commit2" = "$base" ]; then
-			return 2
-		else
-			return 3
-		fi
-	else
-		return 0
-	fi
+  local commit1=$(git rev-parse "$1")
+  local commit2=$(git rev-parse "$2")
+  if [ "$commit1" != "$commit2" ]; then
+    local base=$(git merge-base "$commit1" "$commit2")
+    if [ $? -ne 0 ]; then
+      return 4
+    elif [ "$commit1" = "$base" ]; then
+      return 1
+    elif [ "$commit2" = "$base" ]; then
+      return 2
+    else
+      return 3
+    fi
+  else
+    return 0
+  fi
 }
 
 require_branches_equal() {
@@ -231,6 +255,14 @@ has() {
   local item=$1
   shift
   echo " $@ " | grep -q " $(escape $item) "
+}
+
+# loading settings that can be overridden using git config
+gitflow_load_settings() {
+  export DOT_GIT_DIR=$(git rev-parse --git-dir 2>/dev/null)      # eg: /Users/codeme/workspace/vue-projects/automation-vue/.git
+  export MASTER_BRANCH=$(git config --get gitflow.branch.master) # eg: master
+  export DEVELOP_BRANCH=$(git config --get gitflow.branch.develop)
+  export ORIGIN=$(git config --get gitflow.origin || echo origin)
 }
 
 cmd_finish "$@"
