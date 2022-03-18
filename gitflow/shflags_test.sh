@@ -18,6 +18,8 @@ run() {
   DEFINE_string 'name' 'world' 'name to say hello to' 'n'
   DEFINE_boolean fetch false "fetch from $ORIGIN before performing finish" F
 
+  echo "$1"
+
   # parse the command-line
   parse_args "$@"
 
