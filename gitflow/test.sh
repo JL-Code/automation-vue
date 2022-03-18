@@ -1,6 +1,4 @@
 #!/bin/bash
-echo "当前执行脚本路径：$0"
-
 . "/Users/codeme/workspace/vue-projects/automation-vue/gitflow/shflags"
 
 # 谁在什么时候调用了？
@@ -363,4 +361,4 @@ gitflow_load_settings() {
 }
 
 # cmd_finish "$@"
-cmd_finish "21262"
+cmd_finish 21262 --message "test.shhotfixfinish"
