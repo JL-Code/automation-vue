@@ -38,6 +38,8 @@ cmd_finish() {
   echo "BRANCH:$BRANCH"
   echo "MASTER_BRANCH:$MASTER_BRANCH"
   echo "DEVELOP_BRANCH:$DEVELOP_BRANCH"
+  echo "FLAGS_message:$FLAGS_message"
+  echo "VERSION:$VERSION"
   # 健全性检查
   require_branch "$BRANCH"
   require_clean_working_tree
@@ -360,5 +362,5 @@ gitflow_load_settings() {
   export ORIGIN=$(git config --get gitflow.origin || echo origin)
 }
 
-# cmd_finish "$@"
-cmd_finish 21262 --message "test.shhotfixfinish"
+cmd_finish "$@"
+# cmd_finish --message "test.shhotfixfinish" 21262
