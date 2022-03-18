@@ -100,8 +100,9 @@ require_clean_working_tree() {
 
 #
 # Git common function
-#
+# 获取 Git 本地跟踪分支
 git_local_branches() { git branch --no-color | sed 's/^[* ] //'; }
+# 获取 Git 远程跟踪分支
 git_remote_branches() { git branch -r --no-color | sed 's/^[* ] //'; }
 git_all_branches() { (
   git branch --no-color
@@ -128,6 +129,72 @@ git_is_clean_working_tree() {
   fi
 }
 
+
+
+# git_compare_branches()
+
+# Tests whether branches and their "origin" counterparts have diverged and need
+# merging first. It returns error codes to provide more detail, like so:
+
+# 0    Branch heads point to the same commit
+# 1    First given branch needs fast-forwarding
+# 2    Second given branch needs fast-forwarding
+# 3    Branch needs a real merge
+# 4    There is no merge base, i.e. the branches have no common ancestors
+
+git_compare_branches() {
+	local commit1=$(git rev-parse "$1")
+	local commit2=$(git rev-parse "$2")
+	if [ "$commit1" != "$commit2" ]; then
+		local base=$(git merge-base "$commit1" "$commit2")
+		if [ $? -ne 0 ]; then
+			return 4
+		elif [ "$commit1" = "$base" ]; then
+			return 1
+		elif [ "$commit2" = "$base" ]; then
+			return 2
+		else
+			return 3
+		fi
+	else
+		return 0
+	fi
+}
+
+require_branches_equal() {
+  require_local_branch "$1"
+  require_remote_branch "$2"
+  git_compare_branches "$1" "$2"
+  local status=$?
+  if [ $status -gt 0 ]; then
+    warn "Branches '$1' and '$2' have diverged."
+    if [ $status -eq 1 ]; then
+      die "And branch '$1' may be fast-forwarded."
+    elif [ $status -eq 2 ]; then
+      # Warn here, since there is no harm in being ahead
+      warn "And local branch '$1' is ahead of '$2'."
+    else
+      die "Branches need merging first."
+    fi
+  fi
+}
+
+require_local_branch() {
+  if ! git_local_branch_exists $1; then
+    die "fatal: Local branch '$1' does not exist and is required."
+  fi
+}
+
+git_local_branch_exists() {
+  has $1 $(git_local_branches)
+}
+
+require_remote_branch() {
+  if ! has $1 $(git_remote_branches); then
+    die "Remote branch '$1' does not exist and is required."
+  fi
+}
+
 git_do() {
   # equivalent to git, used to indicate actions that make modifications
   # 等效于 git，用于指示进行修改的操作
@@ -148,6 +215,7 @@ usage() {
 # Common functionality
 # shell output
 warn() { echo "$@" >&2; }
+# 失败警告函数
 die() {
   warn "$@"
   exit 1
@@ -158,6 +226,7 @@ escape() {
 }
 
 # set logic
+# 判断传入第一个参数是否包含在后续参数中
 has() {
   local item=$1
   shift
