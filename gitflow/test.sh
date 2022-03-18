@@ -55,7 +55,7 @@ cmd_finish() {
   if has "$ORIGIN/$DEVELOP_BRANCH" $(git_remote_branches); then
     require_branches_equal "$DEVELOP_BRANCH" "$ORIGIN/$DEVELOP_BRANCH"
   fi
-
+  echo "===============try to merge into master================="
   # try to merge into master
   # in case a previous attempt to finish this release branch has failed,
   # but the merge into master was successful, we skip it now
@@ -88,7 +88,7 @@ cmd_finish() {
         die "Tagging failed. Please run finish again to retry."
     fi
   fi
-
+  echo "===============try to merge into develop================="
   # try to merge into develop
   # in case a previous attempt to finish this release branch has failed,
   # but the merge into develop was successful, we skip it now
