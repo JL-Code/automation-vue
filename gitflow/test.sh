@@ -240,6 +240,18 @@ git_is_clean_working_tree() {
   fi
 }
 
+#
+# git_is_branch_merged_into()
+#
+# Checks whether branch $1 is succesfully merged into $2
+#
+git_is_branch_merged_into() {
+	local subject=$1
+	local base=$2
+	local all_merges="$(git branch --no-color --contains $subject | sed 's/^[* ] //')"
+	has $base $all_merges
+}
+
 # git_compare_branches()
 
 # Tests whether branches and their "origin" counterparts have diverged and need
