@@ -1,0 +1,3564 @@
+[
+  {
+    "id": "003200000000000000000000000000",
+    "parent_id": null,
+    "org_name": "衡泽地产集团",
+    "right_company": 1,
+    "order_code": 1,
+    "org_level": 1,
+    "hierarchy_code": "zgtjdcjt",
+    "physicalLevel": 1,
+    "children": [
+      {
+        "id": "ad2743f39c51a46f2a715b97debda288",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "董事会",
+        "right_company": 1,
+        "order_code": 1,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.dshcsgs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "bf064fae-cf08-4845-a815-c84bf0e1e02f",
+            "parent_id": "ad2743f39c51a46f2a715b97debda288",
+            "org_name": "西南区域总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.dshcsgs.xnqyzb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "bae4ee4e924edddf72baac7aad81e82a",
+            "parent_id": "ad2743f39c51a46f2a715b97debda288",
+            "org_name": "董事会公司总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.dshcsgs.dshgszb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "dc706465-01ff-4da5-a83b-f98e6c59cfd4",
+            "parent_id": "ad2743f39c51a46f2a715b97debda288",
+            "org_name": "成都区总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.dshcsgs.cdqzb",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "a512f09f-503c-4aef-9c63-e057d8913e38",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "西南公司",
+        "right_company": 1,
+        "order_code": 2,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.xngs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "ec416f4b-9341-471b-a2d6-15c70178995d",
+            "parent_id": "a512f09f-503c-4aef-9c63-e057d8913e38",
+            "org_name": "成都公司",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.xngs.cdgs",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "4ce36ee4-fc6f-4914-9426-e4e15a27e355",
+            "parent_id": "a512f09f-503c-4aef-9c63-e057d8913e38",
+            "org_name": "武汉公司",
+            "right_company": 1,
+            "order_code": 4,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.xngs.whgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "029e87b1-3542-4f4b-8433-371e4e26006a",
+                "parent_id": "4ce36ee4-fc6f-4914-9426-e4e15a27e355",
+                "org_name": "dddd",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.xngs.whgs.dddd",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "11ed0194-c744-4aff-bce2-815248e2c0d3",
+            "parent_id": "a512f09f-503c-4aef-9c63-e057d8913e38",
+            "org_name": "西安公司",
+            "right_company": 1,
+            "order_code": 6,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.xngs.xags",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "19b96965-fb2f-42f8-a637-86a9941cc9ee",
+            "parent_id": "a512f09f-503c-4aef-9c63-e057d8913e38",
+            "org_name": "重庆公司",
+            "right_company": 1,
+            "order_code": 7,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.xngs.zqgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "1b947ad9-afad-1504-3008-1f98009cb007",
+                "parent_id": "19b96965-fb2f-42f8-a637-86a9941cc9ee",
+                "org_name": "信息部",
+                "right_company": 1,
+                "order_code": 13,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.xngs.zqgs.xxb",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d0883b60-0883-43ad-ac2f-834eb96263b9",
+            "parent_id": "a512f09f-503c-4aef-9c63-e057d8913e38",
+            "org_name": "贵安公司",
+            "right_company": 1,
+            "order_code": 8,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.xngs.gags",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "adfcc203-cf22-434e-b2e6-3a9cbedee028",
+            "parent_id": "a512f09f-503c-4aef-9c63-e057d8913e38",
+            "org_name": "铁诚公司",
+            "right_company": 1,
+            "order_code": 9,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.xngs.tcgs",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "b5966566-92b4-4d9b-86cc-e9561424e243",
+            "parent_id": "a512f09f-503c-4aef-9c63-e057d8913e38",
+            "org_name": "创新公司",
+            "right_company": 1,
+            "order_code": 12,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.xngs.cxgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "c5876dcc-4f65-4104-be8a-2d28c95d5a53",
+                "parent_id": "b5966566-92b4-4d9b-86cc-e9561424e243",
+                "org_name": "直属项目公司",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.xngs.cxgs.zsxmgs",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c4571e06-dc50-4780-b663-9d3d358f4888",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "集团总部",
+        "right_company": 1,
+        "order_code": 2,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.jtzb",
+        "physicalLevel": 2,
+        "children": []
+      },
+      {
+        "id": "38bb2c2df9c38e02e99ef56d8979d6d4",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "上海同在",
+        "right_company": 1,
+        "order_code": 5,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.shtz",
+        "physicalLevel": 2,
+        "children": []
+      },
+      {
+        "id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "北方公司",
+        "right_company": 1,
+        "order_code": 6,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.bfgs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "5eb13b41-d171-4c22-ac26-1e50f6a8c9af",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "北京嘉达公司",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.bjjdgs",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "4bf733c5ceff3287228136ae0a852a12",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "华通凯普",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.htkp",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "2e3fbef9f6f772587aed78ebab806d7d",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "建安公司",
+            "right_company": 1,
+            "order_code": 4,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.jags",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "6ed1e6cb-7799-4a16-9fcf-53b5f6211eb3",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "北方区域总部",
+            "right_company": 1,
+            "order_code": 5,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.bfqyzb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "c0d08439f736105e839ab8cfcf26100c",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "中南公司",
+            "right_company": 1,
+            "order_code": 7,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.zngs",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "31e92646-7368-4932-b563-d9f5292917ef",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "北京嘉业",
+            "right_company": 1,
+            "order_code": 8,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.bjjy",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "1daf5d34-7870-4b88-bbac-107d8133a3d3",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "北京正达项目",
+            "right_company": 1,
+            "order_code": 13,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.bjzdxm",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "162f354d-6770-4f22-9e34-f022427a9e4f",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "北京丰昊",
+            "right_company": 1,
+            "order_code": 16,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.bjfh",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "fea8d930-7c02-476a-8182-f994c37315e9",
+                "parent_id": "162f354d-6770-4f22-9e34-f022427a9e4f",
+                "org_name": "北京浩达项目",
+                "right_company": 1,
+                "order_code": 11,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.bfgs.bjfh.bjhdxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "aae2b586-246d-4789-9ee3-b834f2934228",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "北京金达",
+            "right_company": 1,
+            "order_code": 20,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.bjjd",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "955a3ca5-5c45-483c-a0d1-8489c82f6335",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "大连置业",
+            "right_company": 1,
+            "order_code": 21,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.dlzy",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "6ae7e178-6d65-4cc1-907b-47bda9b538af",
+                "parent_id": "955a3ca5-5c45-483c-a0d1-8489c82f6335",
+                "org_name": "大连京诚",
+                "right_company": 1,
+                "order_code": 9,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.bfgs.dlzy.dljc",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ce6b2c63-720b-4ade-be2e-dbab1e462836",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "太原金郡",
+            "right_company": 1,
+            "order_code": 23,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.tyjj",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "157647e9-b40e-4ae0-b0a3-d0f455d7e9e9",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "北京捷海",
+            "right_company": 1,
+            "order_code": 24,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.bjjh",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "07c81a41-020f-430a-8add-18fe4ed0634d",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "北京鎏庄",
+            "right_company": 1,
+            "order_code": 25,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.bjlz",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "7cddea24-ffd7-4399-837d-bad1ef83449c",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "太原慧丰",
+            "right_company": 1,
+            "order_code": 26,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.tyhf",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "a3b018d2-89cc-4665-aa54-17572f88bad5",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "大连万城",
+            "right_company": 1,
+            "order_code": 27,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.dlwc",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "ed3a6d3a-eaca-481c-82ba-5e3403b0579a",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "河北筹备组",
+            "right_company": 1,
+            "order_code": 32,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.hbcbz",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "a439e813-3efa-432f-8c44-641622f02a78",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "山东筹备组",
+            "right_company": 1,
+            "order_code": 33,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.sdcbz",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "a2d87912-e475-48c0-8a15-a1632b555e88",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "天津筹备组",
+            "right_company": 1,
+            "order_code": 34,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.tjcbz",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "c23e47d1-ee94-412a-9054-540285a53219",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "太原筹备组",
+            "right_company": 1,
+            "order_code": 35,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.tycbz",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "7d036abc9387c4c1893132e132a23d36",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "建安公司",
+            "right_company": 1,
+            "order_code": 40,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.jags",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "c0c1c18f-d2fd-4707-ac6e-23cd395d9a63",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "海外事业部",
+            "right_company": 1,
+            "order_code": 74,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.hwsyb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "28973d07-5ce9-4c10-bbf8-50f87595e5f4",
+            "parent_id": "86e785dc-29ed-4686-8cc8-1bec845a5015",
+            "org_name": "长春事业部",
+            "right_company": 1,
+            "order_code": 76,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.bfgs.zcsyb",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "02237111-19ba-429d-95cf-8532c7cba62c",
+                "parent_id": "28973d07-5ce9-4c10-bbf8-50f87595e5f4",
+                "org_name": "长春事业部总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.bfgs.zcsyb.zcsybzb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "9ff09ab6-2196-43e1-8abf-a4684615692f",
+                "parent_id": "28973d07-5ce9-4c10-bbf8-50f87595e5f4",
+                "org_name": "长春地产",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.bfgs.zcsyb.zcdc",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "d4c088d8-432b-4546-b1b4-b9d9c4e23931",
+                "parent_id": "28973d07-5ce9-4c10-bbf8-50f87595e5f4",
+                "org_name": "长春玖华",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.bfgs.zcsyb.zcjh",
+                "physicalLevel": 4,
+                "children": [
+                  {
+                    "id": "5cbab254-42a8-497f-b808-b7da7a187f86",
+                    "parent_id": "d4c088d8-432b-4546-b1b4-b9d9c4e23931",
+                    "org_name": "洋浦大街项目部",
+                    "right_company": 1,
+                    "order_code": 11,
+                    "org_level": 5,
+                    "hierarchy_code": "zgtjdcjt.bfgs.zcsyb.zcjh.ypdjxmb",
+                    "physicalLevel": 5,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "530e42a3-5a72-4e2a-b3b3-35cd1814e6aa",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "华东公司",
+        "right_company": 1,
+        "order_code": 8,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.hdgs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "f3407289-d81e-410d-93cc-8139b305d778",
+            "parent_id": "530e42a3-5a72-4e2a-b3b3-35cd1814e6aa",
+            "org_name": "华东区域总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hdgs.hdqyzb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "b83a611c-9289-4903-83e7-d862cf850daa",
+            "parent_id": "530e42a3-5a72-4e2a-b3b3-35cd1814e6aa",
+            "org_name": "杭州事业部",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hdgs.hzsyb",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "2671ca75-6940-4374-b29d-777ef6b00f7e",
+                "parent_id": "b83a611c-9289-4903-83e7-d862cf850daa",
+                "org_name": "杭州事业部总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hzsyb.hzsybzb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "89d7a8ff-cd09-4e5b-a699-463e4237b29b",
+                "parent_id": "b83a611c-9289-4903-83e7-d862cf850daa",
+                "org_name": "浙江京城",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hzsyb.zjjc",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "f941e684-e160-4039-a9ce-fdaf6d47ca15",
+                "parent_id": "b83a611c-9289-4903-83e7-d862cf850daa",
+                "org_name": "杭州京发",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hzsyb.hzjf",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "9ef79691-877b-4703-ae4c-eb79687dd279",
+                "parent_id": "b83a611c-9289-4903-83e7-d862cf850daa",
+                "org_name": "杭州京顺",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hzsyb.hzjs",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "6bd7bc31-0a0c-4c1c-b3ae-3897a38dee63",
+                "parent_id": "b83a611c-9289-4903-83e7-d862cf850daa",
+                "org_name": "杭州京兆",
+                "right_company": 1,
+                "order_code": 5,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hzsyb.hzjz",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "2c1e192a-a75f-4efc-bd86-37e59ee0aa53",
+                "parent_id": "b83a611c-9289-4903-83e7-d862cf850daa",
+                "org_name": "杭州京瑞",
+                "right_company": 1,
+                "order_code": 6,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hzsyb.hzjr",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "373ede30-474b-458d-9e5d-1775da9c05c3",
+                "parent_id": "b83a611c-9289-4903-83e7-d862cf850daa",
+                "org_name": "杭州京科",
+                "right_company": 1,
+                "order_code": 7,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hzsyb.hzjk",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "23850d7a-46a9-4006-84b3-7f7762faac56",
+                "parent_id": "b83a611c-9289-4903-83e7-d862cf850daa",
+                "org_name": "杭州京滨",
+                "right_company": 1,
+                "order_code": 8,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hzsyb.hzjb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "d1c8b11f-d9ab-4fb9-bc26-4ebbee2a0b1d",
+                "parent_id": "b83a611c-9289-4903-83e7-d862cf850daa",
+                "org_name": "杭州京平",
+                "right_company": 1,
+                "order_code": 9,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hzsyb.hzjp",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "8617a104-add3-46ab-9fdc-44cd59291b1e",
+                "parent_id": "b83a611c-9289-4903-83e7-d862cf850daa",
+                "org_name": "杭州建申",
+                "right_company": 1,
+                "order_code": 10,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hzsyb.hzjs",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "cab0f0db-6ee4-4bae-93a1-af5bc753574c",
+            "parent_id": "530e42a3-5a72-4e2a-b3b3-35cd1814e6aa",
+            "org_name": "江苏事业部",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hdgs.jssyb",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "627128f9-5856-4a90-b6a4-030424aa079e",
+                "parent_id": "cab0f0db-6ee4-4bae-93a1-af5bc753574c",
+                "org_name": "江苏事业部总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.jssyb.jssybzb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "9db10791-a3cc-472a-8e55-345465fbad99",
+                "parent_id": "cab0f0db-6ee4-4bae-93a1-af5bc753574c",
+                "org_name": "江苏置业",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.jssyb.jszy",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "ab3562fa-9a0f-4b54-98dd-81ab94529247",
+                "parent_id": "cab0f0db-6ee4-4bae-93a1-af5bc753574c",
+                "org_name": "南京江宁",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.jssyb.njjn",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "81b12384-89a0-46c9-9a3e-617edcd1d4d7",
+                "parent_id": "cab0f0db-6ee4-4bae-93a1-af5bc753574c",
+                "org_name": "徐州地产",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.jssyb.xzdc",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "dc972b9d-9578-46ea-a0e3-7e65ed68d509",
+                "parent_id": "cab0f0db-6ee4-4bae-93a1-af5bc753574c",
+                "org_name": "南京新城",
+                "right_company": 1,
+                "order_code": 5,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.jssyb.njxc",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d3885d8e-7925-4f0f-8e12-07715fd7a9c7",
+            "parent_id": "530e42a3-5a72-4e2a-b3b3-35cd1814e6aa",
+            "org_name": "合肥事业部",
+            "right_company": 1,
+            "order_code": 4,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hdgs.hfsyb",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "6ae6a3c3-7590-4f0a-a158-3ece0a6dc5b0",
+                "parent_id": "d3885d8e-7925-4f0f-8e12-07715fd7a9c7",
+                "org_name": "合肥事业部总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hfsyb.hfsybzb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "a5964ba3-aa53-4240-b8c1-4f1db279527a",
+                "parent_id": "d3885d8e-7925-4f0f-8e12-07715fd7a9c7",
+                "org_name": "合肥置业",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hfsyb.hfzy",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "55fb0f1a-41c8-4d25-bb4c-e15781ade445",
+                "parent_id": "d3885d8e-7925-4f0f-8e12-07715fd7a9c7",
+                "org_name": "合肥蜀山",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hfsyb.hfss",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "aa8b23da-b853-46ef-be21-60d8dbe3f7b7",
+                "parent_id": "d3885d8e-7925-4f0f-8e12-07715fd7a9c7",
+                "org_name": "合肥蜀西",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.hfsyb.hfsx",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "4f191d7d-cb37-43e0-8194-08e1dd4a7f97",
+            "parent_id": "530e42a3-5a72-4e2a-b3b3-35cd1814e6aa",
+            "org_name": "上海青秀城",
+            "right_company": 1,
+            "order_code": 5,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hdgs.shqxc",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "94837d04-5a77-4fc1-ac52-ddc405fe464c",
+            "parent_id": "530e42a3-5a72-4e2a-b3b3-35cd1814e6aa",
+            "org_name": "上海京贤",
+            "right_company": 1,
+            "order_code": 6,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hdgs.shjx",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "9c658375-e0c6-401d-a7b6-6036fb4eb270",
+            "parent_id": "530e42a3-5a72-4e2a-b3b3-35cd1814e6aa",
+            "org_name": "上海泓钧",
+            "right_company": 1,
+            "order_code": 7,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hdgs.shhj",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "61940eed-0d8a-4906-8370-8fb5c4c93e05",
+            "parent_id": "530e42a3-5a72-4e2a-b3b3-35cd1814e6aa",
+            "org_name": "宁波京城",
+            "right_company": 1,
+            "order_code": 8,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hdgs.nbjc",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "acca13a8-3226-47aa-9834-c24b3964c2bd",
+            "parent_id": "530e42a3-5a72-4e2a-b3b3-35cd1814e6aa",
+            "org_name": "宁波京平",
+            "right_company": 1,
+            "order_code": 9,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hdgs.nbjp",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "4b05f8ee-71cc-49f6-98ad-e150bbbd2cfd",
+            "parent_id": "530e42a3-5a72-4e2a-b3b3-35cd1814e6aa",
+            "org_name": "嘉兴公司",
+            "right_company": 1,
+            "order_code": 10,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hdgs.jxgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "a23c61a5-3df5-40c4-859b-21735eb7c7fc",
+                "parent_id": "4b05f8ee-71cc-49f6-98ad-e150bbbd2cfd",
+                "org_name": "嘉兴京开",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.jxgs.jxjk",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "b8bcb292-9220-447c-850d-ddce813a1e5d",
+                "parent_id": "4b05f8ee-71cc-49f6-98ad-e150bbbd2cfd",
+                "org_name": "嘉兴京禾",
+                "right_company": 1,
+                "order_code": 10,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hdgs.jxgs.jxjh",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "华南公司",
+        "right_company": 1,
+        "order_code": 9,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.hngs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "a928bb45-6d0d-4fd7-a333-cf7c40e481d7",
+            "parent_id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+            "org_name": "华南区域总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hngs.hnqyzb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "0d568fc8-7fef-4209-96ca-6896b5a8a6dd",
+            "parent_id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+            "org_name": "长沙事业部",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hngs.zssyb",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "a1903b20-2419-4c8f-ad12-f60644f19fbd",
+                "parent_id": "0d568fc8-7fef-4209-96ca-6896b5a8a6dd",
+                "org_name": "长沙事业部总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.zssyb.zssybzb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "a0385915-4d90-4bf4-9693-37650df3dacf",
+                "parent_id": "0d568fc8-7fef-4209-96ca-6896b5a8a6dd",
+                "org_name": "长沙置业",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.zssyb.zszy",
+                "physicalLevel": 4,
+                "children": [
+                  {
+                    "id": "04f80d7a-3e9d-42da-8348-07694dbfca26",
+                    "parent_id": "a0385915-4d90-4bf4-9693-37650df3dacf",
+                    "org_name": "山语城项目",
+                    "right_company": 1,
+                    "order_code": 3,
+                    "org_level": 5,
+                    "hierarchy_code": "zgtjdcjt.hngs.zssyb.zszy.sycxm",
+                    "physicalLevel": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "d66e003d-2338-44a9-87c6-54342e48619a",
+                    "parent_id": "a0385915-4d90-4bf4-9693-37650df3dacf",
+                    "org_name": "梅溪青秀项目",
+                    "right_company": 1,
+                    "order_code": 5,
+                    "org_level": 5,
+                    "hierarchy_code": "zgtjdcjt.hngs.zssyb.zszy.mxqxxm",
+                    "physicalLevel": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "0f861a20-527d-4336-a426-e776fd194b98",
+                "parent_id": "0d568fc8-7fef-4209-96ca-6896b5a8a6dd",
+                "org_name": "湖南中盛",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.zssyb.hnzs",
+                "physicalLevel": 4,
+                "children": [
+                  {
+                    "id": "e4a2760d-3731-4c0e-be6a-afa9a17485e8",
+                    "parent_id": "0f861a20-527d-4336-a426-e776fd194b98",
+                    "org_name": "国际城项目",
+                    "right_company": 1,
+                    "order_code": 3,
+                    "org_level": 5,
+                    "hierarchy_code": "zgtjdcjt.hngs.zssyb.hnzs.gjcxm",
+                    "physicalLevel": 5,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "26f9c063-1193-47ea-9c0c-2fd4ae9c0a0a",
+            "parent_id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+            "org_name": "南宁事业部",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hngs.nnsyb",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "aca048dc-4520-4895-9776-620a73f625d7",
+                "parent_id": "26f9c063-1193-47ea-9c0c-2fd4ae9c0a0a",
+                "org_name": "南宁事业部总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.nnsyb.nnsybzb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "72aec031-3ae9-4d9a-927d-588560c30235",
+                "parent_id": "26f9c063-1193-47ea-9c0c-2fd4ae9c0a0a",
+                "org_name": "江湾置业",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.nnsyb.jwzy",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "ab178c9a-f3ad-4c96-bbac-5578f8a20b3f",
+                "parent_id": "26f9c063-1193-47ea-9c0c-2fd4ae9c0a0a",
+                "org_name": "云景山语城项目",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.nnsyb.yjsycxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "17aadac8-1980-4731-9a27-3dc77d39f0a3",
+                "parent_id": "26f9c063-1193-47ea-9c0c-2fd4ae9c0a0a",
+                "org_name": "西派澜岸项目",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.nnsyb.xplaxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "288e1219575e05af5f9ca16e8d90c57a",
+                "parent_id": "26f9c063-1193-47ea-9c0c-2fd4ae9c0a0a",
+                "org_name": "领筑置业",
+                "right_company": 1,
+                "order_code": 5,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.nnsyb.lzzy",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "585090ff-2aff-4b78-97cb-3629b06f04db",
+            "parent_id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+            "org_name": "广佛项目管理中心",
+            "right_company": 1,
+            "order_code": 4,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hngs.gfxmglzx",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "1b922b32-928c-44a7-85d7-ee12b74f97e0",
+                "parent_id": "585090ff-2aff-4b78-97cb-3629b06f04db",
+                "org_name": "管理中心总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.gfxmglzx.glzxzb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "9076593d-3496-47e9-85a9-4481488a121e",
+                "parent_id": "585090ff-2aff-4b78-97cb-3629b06f04db",
+                "org_name": "佛山公司",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.gfxmglzx.fsgs",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "23f5b570-0d70-47c2-99a3-9491e6dcc779",
+                "parent_id": "585090ff-2aff-4b78-97cb-3629b06f04db",
+                "org_name": "增城公司",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.gfxmglzx.zcgs",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "3635e392-b425-4c8c-b524-b2c618c3ed11",
+                "parent_id": "585090ff-2aff-4b78-97cb-3629b06f04db",
+                "org_name": "顺德顺嘉",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hngs.gfxmglzx.sdsj",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "bd4541e7-2bca-48ae-8b64-8295dd513de1",
+            "parent_id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+            "org_name": "广州实业",
+            "right_company": 1,
+            "order_code": 5,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hngs.gzsy",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "ba318ae0-7ebf-4026-9fe4-068db2ee2604",
+            "parent_id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+            "org_name": "花都投资",
+            "right_company": 1,
+            "order_code": 6,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hngs.hdtz",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "ee3bbe0663a90dbe14104b997f3e286f",
+            "parent_id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+            "org_name": "权限",
+            "right_company": 1,
+            "order_code": 8,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hngs.qx",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "6e14e95ba468e1cac4736e27df345b03",
+            "parent_id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+            "org_name": "培训测试组织",
+            "right_company": 1,
+            "order_code": 10,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hngs.pxcszz",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "fe16a06e-774e-471a-aad8-68ebed96d586",
+            "parent_id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+            "org_name": "海南筹备处",
+            "right_company": 1,
+            "order_code": 11,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hngs.hncbc",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "b22e8dd6-ff85-455f-acdf-9f93283a2ae0",
+            "parent_id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+            "org_name": "福建筹备处",
+            "right_company": 1,
+            "order_code": 12,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hngs.fjcbc",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "c1caebc5-a517-438b-9cac-a35412cbd440",
+            "parent_id": "45e9c408-dd59-4a41-8c50-7b4eaf6c1e46",
+            "org_name": "深圳筹备处",
+            "right_company": 1,
+            "order_code": 13,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hngs.szcbc",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "7ad4b49b-639b-4c81-95f6-9bef726da3fe",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "华中公司",
+        "right_company": 1,
+        "order_code": 9,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.hzgs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "8c1d6170-c2ed-482f-9e34-911ebafe496f",
+            "parent_id": "7ad4b49b-639b-4c81-95f6-9bef726da3fe",
+            "org_name": "华中公司总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hzgs.hzgszb",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "08247114-b2bb-4605-836f-6849a6ab6246",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "东北公司",
+        "right_company": 1,
+        "order_code": 9,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.dbgs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "6ee1a0c7-7c15-4615-ab67-6ef0a8cf4f20",
+            "parent_id": "08247114-b2bb-4605-836f-6849a6ab6246",
+            "org_name": "东北公司总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.dbgs.dbgszb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "c812f7a1-88b3-4e45-9f89-4c7b9b893f99",
+            "parent_id": "08247114-b2bb-4605-836f-6849a6ab6246",
+            "org_name": "长春事业部",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.dbgs.zcsyb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "250deafd-e185-4b29-ba88-55ad95314e40",
+            "parent_id": "08247114-b2bb-4605-836f-6849a6ab6246",
+            "org_name": "大连事业部",
+            "right_company": 1,
+            "order_code": 4,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.dbgs.dlsyb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "8cfada0a-6da9-4cd3-b12e-843bad6e0d4c",
+            "parent_id": "08247114-b2bb-4605-836f-6849a6ab6246",
+            "org_name": "沈阳筹备组",
+            "right_company": 1,
+            "order_code": 5,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.dbgs.sycbz",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "131c6a59-ba77-474c-b397-488c382969a1",
+            "parent_id": "08247114-b2bb-4605-836f-6849a6ab6246",
+            "org_name": "哈尔滨筹备组",
+            "right_company": 1,
+            "order_code": 6,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.dbgs.hebcbz",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "物业公司1",
+        "right_company": 1,
+        "order_code": 9,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.wygs1",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "4264ef95-490a-404b-a264-a6854fc053b0",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业公司总部2",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wygszb2",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "241c717502941bb47510d9b06251da23",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "华东区域 ",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.hdqy ",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "80ebaf39-b15b-4201-8784-42e27467b269",
+                "parent_id": "241c717502941bb47510d9b06251da23",
+                "org_name": "上海青秀城项目",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.hdqy .shqxcxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "2e1c0067391ab632d1b18be4d25c21af",
+                "parent_id": "241c717502941bb47510d9b06251da23",
+                "org_name": "物业华东区域总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.hdqy .wyhdqyzb",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c0f77722-420b-45d4-926e-ff01b21d4ca6",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业分公司",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wyfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "42a7dba9-3b86-4b7f-aaf5-28440ceacce9",
+                "parent_id": "c0f77722-420b-45d4-926e-ff01b21d4ca6",
+                "org_name": "北京青秀城项目",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyfgs.bjqxcxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "f7b3bafd-eda0-4162-95b1-c97b79b364cd",
+                "parent_id": "c0f77722-420b-45d4-926e-ff01b21d4ca6",
+                "org_name": "北京山语城城项目",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyfgs.bjsyccxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "a195ce1f-5f07-4fb3-aa83-fe3515411386",
+                "parent_id": "c0f77722-420b-45d4-926e-ff01b21d4ca6",
+                "org_name": "物业环保嘉苑",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyfgs.wyhbjy",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "21fd7bf650efb9e1abee9a66d03dea77",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "东北区域3",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.dbqy3",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "9725c7d05ff124878d4b257290e63815",
+                "parent_id": "21fd7bf650efb9e1abee9a66d03dea77",
+                "org_name": "东北区域总部4",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.dbqy3.dbqyzb4",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "6642738f-a534-4354-bf1d-470a3b651455",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业房山分公司",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wyfsfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "0887f874-7223-4219-adbb-858dfb64a260",
+                "parent_id": "6642738f-a534-4354-bf1d-470a3b651455",
+                "org_name": "北京原香小镇项目",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyfsfgs.bjyxxzxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "27284f9d-2d6c-447f-abf5-bd8f268dae55",
+                "parent_id": "6642738f-a534-4354-bf1d-470a3b651455",
+                "org_name": "北京长阳国际城项目",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyfsfgs.bjzygjcxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "de8b32f3-0f0d-4091-b1b5-29f2192c9500",
+                "parent_id": "6642738f-a534-4354-bf1d-470a3b651455",
+                "org_name": "北京原香漫谷项目",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyfsfgs.bjyxmgxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "9c899ad8-33b6-414e-967a-e0f7880cb485",
+                "parent_id": "6642738f-a534-4354-bf1d-470a3b651455",
+                "org_name": "北京长阳国际花园项目",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyfsfgs.bjzygjhyxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "708539e6-49a3-4069-8faf-b60d989773d9",
+                "parent_id": "6642738f-a534-4354-bf1d-470a3b651455",
+                "org_name": "北京原香嘉苑项目 ",
+                "right_company": 1,
+                "order_code": 5,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyfsfgs.bjyxjyxm ",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "425ce0c2-04cc-4dd1-9fc0-0b258c879824",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业门头沟分公司",
+            "right_company": 1,
+            "order_code": 4,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wymtgfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "2d4f0ff9-7aba-458e-92ea-8c04d8f19d1e",
+                "parent_id": "425ce0c2-04cc-4dd1-9fc0-0b258c879824",
+                "org_name": "北京梧桐苑项目部",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wymtgfgs.bjwtyxmb",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "921b4a61-80de-49c9-97ce-9c15fd6b245a",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业顺义分公司",
+            "right_company": 1,
+            "order_code": 5,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wysyfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "2933ea4f-347f-46e4-94c1-03cc78449685",
+                "parent_id": "921b4a61-80de-49c9-97ce-9c15fd6b245a",
+                "org_name": "北京锦悦嘉苑项目",
+                "right_company": 1,
+                "order_code": 40,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wysyfgs.bjjyjyxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "f9a14b18-fc7f-4c05-ae03-c6317caaaaca",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业通州分公司",
+            "right_company": 1,
+            "order_code": 6,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wytzfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "37cf9a1e-5214-4b40-a324-81c8866b536a",
+                "parent_id": "f9a14b18-fc7f-4c05-ae03-c6317caaaaca",
+                "org_name": "北京通瑞嘉苑项目",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wytzfgs.bjtrjyxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "66a1b842-3cf4-42f6-bad4-97361c7aae73",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业保定分公司",
+            "right_company": 1,
+            "order_code": 7,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wybdfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "3fb0776b-25f1-49be-8742-b77fa68a0c45",
+                "parent_id": "66a1b842-3cf4-42f6-bad4-97361c7aae73",
+                "org_name": "保定京南一品项目",
+                "right_company": 1,
+                "order_code": 7,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wybdfgs.bdjnypxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "91c214ef-5964-40af-8fdf-b470178980dc",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业朝阳分公司",
+            "right_company": 1,
+            "order_code": 8,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wycyfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "48adc976-e7a2-4dee-93d8-4e8eb4d9e143",
+                "parent_id": "91c214ef-5964-40af-8fdf-b470178980dc",
+                "org_name": "北京来广营花语城项目",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wycyfgs.bjlgyhycxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "609298a4-1aa1-410f-898d-1ac8c3fde6c2",
+                "parent_id": "91c214ef-5964-40af-8fdf-b470178980dc",
+                "org_name": "北京来广营国际城项目",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wycyfgs.bjlgygjcxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "fc4d76c9-23bc-4d7a-bf5f-628021160afd",
+                "parent_id": "91c214ef-5964-40af-8fdf-b470178980dc",
+                "org_name": "北京来广营乐想汇项目",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wycyfgs.bjlgylxhxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "330102cf-68d5-4209-b7fa-3103751a93eb",
+                "parent_id": "91c214ef-5964-40af-8fdf-b470178980dc",
+                "org_name": "北京铁建广场项目",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wycyfgs.bjtjgcxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "5b120813-f1c4-4a35-8b7a-ec3db3f9fcac",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业合肥分公司",
+            "right_company": 1,
+            "order_code": 9,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wyhffgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "4288128c-4e9f-4304-8fd2-08a6fbb49103",
+                "parent_id": "5b120813-f1c4-4a35-8b7a-ec3db3f9fcac",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhffgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "0ed216a1-bedc-441e-94aa-a711a6227fcc",
+                "parent_id": "5b120813-f1c4-4a35-8b7a-ec3db3f9fcac",
+                "org_name": "合肥广园项目",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhffgs.hfgyxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "64950644-769f-4f67-b7b0-d7a15cb4bef7",
+                "parent_id": "5b120813-f1c4-4a35-8b7a-ec3db3f9fcac",
+                "org_name": "合肥德园项目",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhffgs.hfdyxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "3cd64d94-ba3d-446b-8bf4-ef0457d5e41b",
+                "parent_id": "5b120813-f1c4-4a35-8b7a-ec3db3f9fcac",
+                "org_name": "合肥瑞园项目",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhffgs.hfryxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "653d04a2-0c61-4e0b-b6f6-18666e98faf0",
+                "parent_id": "5b120813-f1c4-4a35-8b7a-ec3db3f9fcac",
+                "org_name": "合肥旭园项目",
+                "right_company": 1,
+                "order_code": 5,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhffgs.hfxyxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "a68145ef-702f-4605-b235-cef8f906480e",
+                "parent_id": "5b120813-f1c4-4a35-8b7a-ec3db3f9fcac",
+                "org_name": "合肥和畅园项目",
+                "right_company": 1,
+                "order_code": 6,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhffgs.hfhcyxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "553c5623-ec94-4d60-88d7-f4d90571057a",
+                "parent_id": "5b120813-f1c4-4a35-8b7a-ec3db3f9fcac",
+                "org_name": "合肥大湖公馆项目",
+                "right_company": 1,
+                "order_code": 7,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhffgs.hfdhggxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "901165ab-5947-400d-a512-d7d52cb6872d",
+                "parent_id": "5b120813-f1c4-4a35-8b7a-ec3db3f9fcac",
+                "org_name": "合肥高端项目",
+                "right_company": 1,
+                "order_code": 8,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhffgs.hfgdxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "22405d68-d0c9-45ab-bf5a-6f5910f18677",
+                "parent_id": "5b120813-f1c4-4a35-8b7a-ec3db3f9fcac",
+                "org_name": "合肥桂园项目",
+                "right_company": 1,
+                "order_code": 9,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhffgs.hfgyxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "ca2b057c-8c40-4837-b7c6-1f27ec855632",
+                "parent_id": "5b120813-f1c4-4a35-8b7a-ec3db3f9fcac",
+                "org_name": "合肥品园项目",
+                "right_company": 1,
+                "order_code": 10,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhffgs.hfpyxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "0670ab36-1f8d-4fd2-a0ce-f8a55cf99fc8",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业广州分公司",
+            "right_company": 1,
+            "order_code": 10,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wygzfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "b05616c2-6c6d-471f-8941-5453eeafe5e8",
+                "parent_id": "0670ab36-1f8d-4fd2-a0ce-f8a55cf99fc8",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wygzfgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "5d416e7a-d4cc-4d49-846a-95d63dd8bb4e",
+                "parent_id": "0670ab36-1f8d-4fd2-a0ce-f8a55cf99fc8",
+                "org_name": "广州荔湾国际城项目",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wygzfgs.gzlwgjcxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "12a568c5-2527-411d-8ca9-68ad62ee8cf0",
+                "parent_id": "0670ab36-1f8d-4fd2-a0ce-f8a55cf99fc8",
+                "org_name": "广州增城项目",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wygzfgs.gzzcxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "65032189-2377-406f-a082-394b5f246677",
+                "parent_id": "0670ab36-1f8d-4fd2-a0ce-f8a55cf99fc8",
+                "org_name": "广州南沙项目",
+                "right_company": 1,
+                "order_code": 5,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wygzfgs.gznsxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "9a50ae75-7a5e-449a-8638-5b41985410ed",
+                "parent_id": "0670ab36-1f8d-4fd2-a0ce-f8a55cf99fc8",
+                "org_name": "广州万通项目",
+                "right_company": 1,
+                "order_code": 6,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wygzfgs.gzwtxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "423a058d-2f81-4020-85aa-6af435119ec5",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业长沙分公司",
+            "right_company": 1,
+            "order_code": 11,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wyzsfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "7f7f243e-88e8-4e2a-9f88-08ad5d5eb786",
+                "parent_id": "423a058d-2f81-4020-85aa-6af435119ec5",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyzsfgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "ac82890e-b8cb-4d27-9903-7b597726458c",
+                "parent_id": "423a058d-2f81-4020-85aa-6af435119ec5",
+                "org_name": "长沙山语城二期项目",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyzsfgs.zssyceqxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "87da1df5-7997-49d7-a579-14fa60e537b7",
+                "parent_id": "423a058d-2f81-4020-85aa-6af435119ec5",
+                "org_name": "长沙山语城三期A区",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyzsfgs.zssycsqaq",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "04d17d1c-3b16-4c4a-a867-eb3dbb86cb3b",
+                "parent_id": "423a058d-2f81-4020-85aa-6af435119ec5",
+                "org_name": "长沙梅溪青秀和园一期",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyzsfgs.zsmxqxhyyq",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "2ca99292-400f-4bc9-853d-695afde4c4b4",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业南宁分公司",
+            "right_company": 1,
+            "order_code": 12,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wynnfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "1d1fb9ce-e49a-4e41-90b8-eff1fd40f7a4",
+                "parent_id": "2ca99292-400f-4bc9-853d-695afde4c4b4",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wynnfgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "8f863a6b-9b2b-4608-9cc0-85fb3f7e2264",
+                "parent_id": "2ca99292-400f-4bc9-853d-695afde4c4b4",
+                "org_name": "南宁凤岭山语城项目",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wynnfgs.nnflsycxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "e6a259cb-104a-4e39-992d-4429d6f07e80",
+                "parent_id": "2ca99292-400f-4bc9-853d-695afde4c4b4",
+                "org_name": "南宁江湾项目",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wynnfgs.nnjwxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b9cea141-f24d-4818-bcc6-9f8b7ebdcf01",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业成都分公司",
+            "right_company": 1,
+            "order_code": 13,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wycdfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "579f9b90-c86b-42cb-bc8c-7ea96b5ea586",
+                "parent_id": "b9cea141-f24d-4818-bcc6-9f8b7ebdcf01",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wycdfgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "5435d22c-0470-490f-97f8-9821cd014c0e",
+                "parent_id": "b9cea141-f24d-4818-bcc6-9f8b7ebdcf01",
+                "org_name": "成都国际城Ⅱ项目",
+                "right_company": 1,
+                "order_code": 8,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wycdfgs.cdgjcⅱxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d3f529dc-a161-4623-9922-f5612249ccd1",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业长春分公司",
+            "right_company": 1,
+            "order_code": 14,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wyzcfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "87e32b35-32af-4fde-b795-c3a77710fdc9",
+                "parent_id": "d3f529dc-a161-4623-9922-f5612249ccd1",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyzcfgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "66290fcd-30f5-4f8a-b0f9-d8258815713c",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业贵阳分公司",
+            "right_company": 1,
+            "order_code": 15,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wygyfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "84a95222-d620-4cfd-aaed-5b2eab534b4a",
+                "parent_id": "66290fcd-30f5-4f8a-b0f9-d8258815713c",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wygyfgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "b547de2a-785c-4c1c-bdf4-e476dd2b08cb",
+                "parent_id": "66290fcd-30f5-4f8a-b0f9-d8258815713c",
+                "org_name": "贵阳南区项目服务中心",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wygyfgs.gynqxmfwzx",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "ef686ed0-d290-456b-a6be-2eb3a7fb0b66",
+                "parent_id": "66290fcd-30f5-4f8a-b0f9-d8258815713c",
+                "org_name": "贵阳北区项目服务中心",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wygyfgs.gybqxmfwzx",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "9d23863f-da0f-4055-a285-d9142b0dd1d1",
+                "parent_id": "66290fcd-30f5-4f8a-b0f9-d8258815713c",
+                "org_name": "贵阳倚水苑项目",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wygyfgs.gyysyxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "6be12b70-6f4d-4473-9d41-d7ad838ebc2e",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业杭州分公司",
+            "right_company": 1,
+            "order_code": 24,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wyhzfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "da696beb-4480-4a6e-9f07-4fefb7f4b0f4",
+                "parent_id": "6be12b70-6f4d-4473-9d41-d7ad838ebc2e",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhzfgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "12af4758-7691-47e1-a578-cba71e78a01d",
+                "parent_id": "6be12b70-6f4d-4473-9d41-d7ad838ebc2e",
+                "org_name": "杭州西湖国际城案场",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhzfgs.hzxhgjcac",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "19bec1a6-9808-42ea-a3b9-f12f4a5aa183",
+                "parent_id": "6be12b70-6f4d-4473-9d41-d7ad838ebc2e",
+                "org_name": "杭州江南国际城案场",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhzfgs.hzjngjcac",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "2f87d7b2-c466-4684-af8f-29f8f76f709e",
+                "parent_id": "6be12b70-6f4d-4473-9d41-d7ad838ebc2e",
+                "org_name": "杭州青秀城项目",
+                "right_company": 1,
+                "order_code": 5,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyhzfgs.hzqxcxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "67d334fc-9f06-478d-aa6d-55158917c7d6",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业武汉分公司",
+            "right_company": 1,
+            "order_code": 27,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wywhfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "9977075a-6fc5-4584-a28c-242a604325fa",
+                "parent_id": "67d334fc-9f06-478d-aa6d-55158917c7d6",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wywhfgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "0d2f11f9-ddaf-4cf2-b960-cf8b4bd94dc1",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业大连分公司",
+            "right_company": 1,
+            "order_code": 28,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wydlfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "9928a280-3b9e-47d7-8bfa-b7e4f0014857",
+                "parent_id": "0d2f11f9-ddaf-4cf2-b960-cf8b4bd94dc1",
+                "org_name": "大连青秀蓝湾",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wydlfgs.dlqxlw",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "3e24ff91-b9d4-47ab-bf4d-a1793ee38307",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业徐州分公司",
+            "right_company": 1,
+            "order_code": 29,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wyxzfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "f1a9b075-5a53-4e3b-bdc5-3545c25999be",
+                "parent_id": "3e24ff91-b9d4-47ab-bf4d-a1793ee38307",
+                "org_name": "徐州原香漫谷项目",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyxzfgs.xzyxmgxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "065aa70d-3a64-4836-901f-1774e188851a",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业佛山分公司",
+            "right_company": 1,
+            "order_code": 32,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wyfsfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "4bd329aa-668f-4e32-a058-c4d60ddb56ba",
+                "parent_id": "065aa70d-3a64-4836-901f-1774e188851a",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyfsfgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "07cad62d-745f-4d6f-98fd-8f2678dfe109",
+                "parent_id": "065aa70d-3a64-4836-901f-1774e188851a",
+                "org_name": "佛山国际公馆项目",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyfsfgs.fsgjggxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "06a11ddc-90c7-47e2-b9ca-cb030e577afe",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业南京分公司",
+            "right_company": 1,
+            "order_code": 33,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wynjfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "87ba57ce-bedb-4639-ac38-51b6369f2dac",
+                "parent_id": "06a11ddc-90c7-47e2-b9ca-cb030e577afe",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wynjfgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "f9257812-f86c-4934-99cf-73b35ec53f14",
+                "parent_id": "06a11ddc-90c7-47e2-b9ca-cb030e577afe",
+                "org_name": "南京青秀城项目",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wynjfgs.njqxcxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "29df3c68-f99f-49e0-ba82-e5e0261b29e7",
+                "parent_id": "06a11ddc-90c7-47e2-b9ca-cb030e577afe",
+                "org_name": "南京原香颂项目",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wynjfgs.njyxsxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "edd0ce64-610b-486b-a379-e6aed56a7dfb",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业宁波分公司",
+            "right_company": 1,
+            "order_code": 36,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wynbfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "3bf72e09-9878-483b-adb3-69e3aff383b8",
+                "parent_id": "edd0ce64-610b-486b-a379-e6aed56a7dfb",
+                "org_name": "宁波分山语城项目",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wynbfgs.nbfsycxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1e271855-7b3d-4a53-a038-6c0130f786c9",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业天津分公司",
+            "right_company": 1,
+            "order_code": 39,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wytjfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "fe6302b7-246d-4b0e-bd0b-3fc5d4b6f1c7",
+                "parent_id": "1e271855-7b3d-4a53-a038-6c0130f786c9",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wytjfgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "631b9b08-780d-4ea1-9cb5-f411950257cf",
+                "parent_id": "1e271855-7b3d-4a53-a038-6c0130f786c9",
+                "org_name": "天津诗景颂苑项目",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wytjfgs.tjsjsyxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "11fcdf8b-8185-44b3-8d8d-9132a77e4295",
+                "parent_id": "1e271855-7b3d-4a53-a038-6c0130f786c9",
+                "org_name": "天津瑞庭项目",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wytjfgs.tjrtxm",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "8f273bdb-dfb9-4622-9192-274d2c51eb4a",
+                "parent_id": "1e271855-7b3d-4a53-a038-6c0130f786c9",
+                "org_name": "天津香湾凤苑项目",
+                "right_company": 1,
+                "order_code": 4,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wytjfgs.tjxwfyxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "2f215901-3229-4d28-8c85-62a36256c326",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业西安分公司",
+            "right_company": 1,
+            "order_code": 40,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wyxafgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "52345ac1-b00e-4c11-bac8-654dec6c6f3b",
+                "parent_id": "2f215901-3229-4d28-8c85-62a36256c326",
+                "org_name": "分公司总部",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyxafgs.fgszb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "10ae4a7d-e50d-4468-abae-18b4321ba561",
+                "parent_id": "2f215901-3229-4d28-8c85-62a36256c326",
+                "org_name": "西安西派国际项目",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyxafgs.xaxpgjxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "9fbb1bb1-a536-4945-a493-f9a13f297d28",
+            "parent_id": "3d1a9e95-4cbe-45d0-b13c-3ca89007669b",
+            "org_name": "物业延吉分公司",
+            "right_company": 1,
+            "order_code": 41,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.wygs1.wyyjfgs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "831bd1f7-17a7-48c5-b01e-c441b468c896",
+                "parent_id": "9fbb1bb1-a536-4945-a493-f9a13f297d28",
+                "org_name": "延吉参花街三号项目",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.wygs1.wyyjfgs.yjchjshxm",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7861fcbd-9f79-4ea3-bc28-daecbd6f8590",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "商业公司",
+        "right_company": 1,
+        "order_code": 10,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.sygs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "1e4b413f-6b60-44be-82cb-f7d533f41328",
+            "parent_id": "7861fcbd-9f79-4ea3-bc28-daecbd6f8590",
+            "org_name": "商业公司总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.sygs.sygszb",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "f6d0aead301d06bff1a004615da8324b",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "中南公司",
+        "right_company": 1,
+        "order_code": 11,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.zngs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "b58f5920f8c7f78122ac38e02bc87bea",
+            "parent_id": "f6d0aead301d06bff1a004615da8324b",
+            "org_name": "中南公司总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.zngs.zngszb",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "59400801-87a5-4b54-bb84-dcad71206eb4",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "海外公司",
+        "right_company": 1,
+        "order_code": 13,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.hwgs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "0c0401a2-6fd5-435c-8091-b3a038547303",
+            "parent_id": "59400801-87a5-4b54-bb84-dcad71206eb4",
+            "org_name": "海外公司总部",
+            "right_company": 1,
+            "order_code": 6,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.hwgs.hwgszb",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "902b9eb6-60a5-42bc-b659-1fc7d3f727b9",
+                "parent_id": "0c0401a2-6fd5-435c-8091-b3a038547303",
+                "org_name": "国内事业部",
+                "right_company": 1,
+                "order_code": 3,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.hwgs.hwgszb.gnsyb",
+                "physicalLevel": 4,
+                "children": [
+                  {
+                    "id": "9af7afc8-7420-4c0f-a1da-7bbdc39474a7",
+                    "parent_id": "902b9eb6-60a5-42bc-b659-1fc7d3f727b9",
+                    "org_name": "国内事业部总部",
+                    "right_company": 1,
+                    "order_code": 1,
+                    "org_level": 5,
+                    "hierarchy_code": "zgtjdcjt.hwgs.hwgszb.gnsyb.gnsybzb",
+                    "physicalLevel": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "97044bf8-bb51-4e73-b83d-0f97afafa654",
+                    "parent_id": "902b9eb6-60a5-42bc-b659-1fc7d3f727b9",
+                    "org_name": "来广营项目",
+                    "right_company": 1,
+                    "order_code": 2,
+                    "org_level": 5,
+                    "hierarchy_code": "zgtjdcjt.hwgs.hwgszb.gnsyb.lgyxm",
+                    "physicalLevel": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "0861de21-ba9a-43c8-8402-8c5802ab1e49",
+                    "parent_id": "902b9eb6-60a5-42bc-b659-1fc7d3f727b9",
+                    "org_name": "通州项目（北京通瑞）",
+                    "right_company": 1,
+                    "order_code": 3,
+                    "org_level": 5,
+                    "hierarchy_code": "zgtjdcjt.hwgs.hwgszb.gnsyb.tzxm（bjtr）",
+                    "physicalLevel": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "17fd5912-af82-437d-b469-ef41e7f316a0",
+                    "parent_id": "902b9eb6-60a5-42bc-b659-1fc7d3f727b9",
+                    "org_name": "大兴项目（北京金郡）",
+                    "right_company": 1,
+                    "order_code": 4,
+                    "org_level": 5,
+                    "hierarchy_code": "zgtjdcjt.hwgs.hwgszb.gnsyb.dxxm（bjjj）",
+                    "physicalLevel": 5,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ada74687-f244-4664-8ba5-716e52dada22",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "南沙公司",
+        "right_company": 1,
+        "order_code": 14,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.nsgs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "102206e3-1d54-4358-bf79-bbd731742634",
+            "parent_id": "ada74687-f244-4664-8ba5-716e52dada22",
+            "org_name": "南沙公司总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.nsgs.nsgszb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "cf57f7e8-1307-4288-9956-ab27f847ac33",
+            "parent_id": "ada74687-f244-4664-8ba5-716e52dada22",
+            "org_name": "南沙实业公司",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.nsgs.nssygs",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "6e2e737d-cce6-4979-af90-c12a59fef9da",
+            "parent_id": "ada74687-f244-4664-8ba5-716e52dada22",
+            "org_name": "坤方置业",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.nsgs.kfzy",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "cbd4f26a-cc3e-4d47-9308-d61cf30d8cb0",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "济南公司",
+        "right_company": 1,
+        "order_code": 15,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.jngs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "b1e0d86a04f7c82a9777b14ad6f82b21",
+            "parent_id": "cbd4f26a-cc3e-4d47-9308-d61cf30d8cb0",
+            "org_name": "测试同步单位",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.jngs.cstbdw",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "8898e3b542c5d564d1cb0d4e6ad1fe2c",
+                "parent_id": "b1e0d86a04f7c82a9777b14ad6f82b21",
+                "org_name": "二级单位同步",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.jngs.cstbdw.ejdwtb",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "121624414b83b289d8aef8782139b7c6",
+                "parent_id": "b1e0d86a04f7c82a9777b14ad6f82b21",
+                "org_name": "啊DS",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.jngs.cstbdw.ads",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "a61472c2d6274352f4a8d222b1d61ded",
+                "parent_id": "b1e0d86a04f7c82a9777b14ad6f82b21",
+                "org_name": "测试同步单位2级",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.jngs.cstbdw.cstbdw2j",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "df7e27bc-ada2-414e-acec-eec078ad0a87",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "信息技术中心",
+        "right_company": 1,
+        "order_code": 18,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.xxjszx",
+        "physicalLevel": 2,
+        "children": []
+      },
+      {
+        "id": "412067b2-e08d-437f-ba8d-0118453dd6ed",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "设计咨询公司",
+        "right_company": 1,
+        "order_code": 19,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.sjzxgs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "ad4c84d5-e776-43de-8fde-8520b04c1ed4",
+            "parent_id": "412067b2-e08d-437f-ba8d-0118453dd6ed",
+            "org_name": "设计公司总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.sjzxgs.sjgszb",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "e9632b17-74ef-4931-bbd6-2454a2562b11",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "投资管理公司",
+        "right_company": 1,
+        "order_code": 20,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.tzglgs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "433fb9ef-25af-4a1b-b98a-baeb3f907da4",
+            "parent_id": "e9632b17-74ef-4931-bbd6-2454a2562b11",
+            "org_name": "投资公司总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.tzglgs.tzgszb",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "63b7c96e-5ba0-48aa-915b-a4d4e1a0bee0",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "贵州公司",
+        "right_company": 1,
+        "order_code": 21,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.gzgs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "59f1321e-e5e2-4786-935b-37fe4c7113fa",
+            "parent_id": "63b7c96e-5ba0-48aa-915b-a4d4e1a0bee0",
+            "org_name": "贵州地产总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.gzgs.gzdczb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "48497752e716244ebf41192c12f7fb13",
+            "parent_id": "63b7c96e-5ba0-48aa-915b-a4d4e1a0bee0",
+            "org_name": "测试组织2",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.gzgs.cszz2",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "098d8ccb-41e0-46c8-b7e0-82c9235b5073",
+            "parent_id": "63b7c96e-5ba0-48aa-915b-a4d4e1a0bee0",
+            "org_name": "商业项目",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.gzgs.syxm",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "88a7dee3-a22a-4756-91d8-65b24331bdf7",
+            "parent_id": "63b7c96e-5ba0-48aa-915b-a4d4e1a0bee0",
+            "org_name": "兰草坝项目",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.gzgs.lcbxm",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "6c2c589e-0b1a-4460-8548-48a6cb3e0df4",
+            "parent_id": "63b7c96e-5ba0-48aa-915b-a4d4e1a0bee0",
+            "org_name": "国际城项目",
+            "right_company": 1,
+            "order_code": 4,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.gzgs.gjcxm",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "6f2c081f4dd9336877adfd7dd8e5e0d9",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "雄安公司",
+        "right_company": 1,
+        "order_code": 22,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.xags",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "76653c8bbe87e2a8ecd7e930c581b0fb",
+            "parent_id": "6f2c081f4dd9336877adfd7dd8e5e0d9",
+            "org_name": "雄安公司总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.xags.xagszb",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "007c9117d3e7186d7dc4d9abbab9c4d7",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "测试公司",
+        "right_company": 1,
+        "order_code": 24,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.csgs",
+        "physicalLevel": 2,
+        "children": []
+      },
+      {
+        "id": "f4f9f2f69e3fd02c9b62827d001432b6",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "测试单位人员存放",
+        "right_company": 1,
+        "order_code": 25,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.csdwrycf",
+        "physicalLevel": 2,
+        "children": []
+      },
+      {
+        "id": "e9ddc211bc4a27566f0b5d8cbfb86b21",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "测试1226",
+        "right_company": 1,
+        "order_code": 28,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.cs1226",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "679e1ecb4764c5748de8c59ac6b42ce8",
+            "parent_id": "e9ddc211bc4a27566f0b5d8cbfb86b21",
+            "org_name": "测试公司1",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cs1226.csgs1",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "a1638df9cba0b7da208fa9512c64d258",
+            "parent_id": "e9ddc211bc4a27566f0b5d8cbfb86b21",
+            "org_name": "测试公司2",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cs1226.csgs2",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "c5f0cd94e42a05191b8ec1f7f8e44d35",
+            "parent_id": "e9ddc211bc4a27566f0b5d8cbfb86b21",
+            "org_name": "测试公司3",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cs1226.csgs3",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "8303be146d2b0ae48c6dd51b98d4cd01",
+            "parent_id": "e9ddc211bc4a27566f0b5d8cbfb86b21",
+            "org_name": "测试公司4",
+            "right_company": 1,
+            "order_code": 4,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cs1226.csgs4",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "7f79e9e24f83909fad73059571668a16",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "存放测试公司2",
+        "right_company": 1,
+        "order_code": 30,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.cfcsgs2",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "6998aaf16cdb15449aba5b191c072836",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试集团公司下的子公司",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csjtgsxdzgs",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "d5679466-4866-4cff-acfe-56d1a1e19469",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试法人组织但",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csfrzzd",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "afc323fc-d59f-447e-8fea-75e787b934b6",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试迁移",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csqy",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "0492f7f6d1da068c66407bf7a2a41903",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "力测",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.lc",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "58e29d26-e86f-4bec-bbbd-e6df356f25da",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试部门",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csbm",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "43a6dc48-3ce2-4a0a-897e-c971cf06c577",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试邮箱一二三",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csyxyes",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "4d0f3fc9cd158772a00db869d92ba16d",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试单位三十",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csdwss",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "6bc1d584-f469-48cc-9255-94d4646966fd",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "zjw测试单位2",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.zjwcsdw2",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "98119152b830de8dad6dde2404c565ee",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "邮箱测试",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.yxcs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "0350d0a4d3d1ce0b11c0eef8d7fe7935",
+                "parent_id": "98119152b830de8dad6dde2404c565ee",
+                "org_name": "测试公司一",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.cfcsgs2.yxcs.csgsy",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "81d26dcbf4170e074b7c08a323046d21",
+                "parent_id": "98119152b830de8dad6dde2404c565ee",
+                "org_name": "测试公司二",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.cfcsgs2.yxcs.csgse",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "424b5cd1-99ce-4fec-8c58-52b229f03191",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "开发测试",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.kfcs",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "c65877161900e6c3af7fdf01cef68d59",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试外部供应商",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.cswbgys",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "b7bfc4eecd8e09e8aa4a61ee4fcff1a0",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "新建迁移",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.xjqy",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "01ef7b87-eca8-4888-aa7e-5f2365edc73f",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "部门111",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.bm111",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "791cf5703111f7600f475e4bc5b76b11",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "ceshi ",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.ceshi ",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "3153ac2dcc758ee8d352e1bdc734d65a",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "致远测试02",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.zycs02",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "c80cbafbe2586a6eac3495eabbf69a0f",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "微信总部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.wxzb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "385a72ff90adcd0c7ff8a9e17e33cb0c",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "新建迁移2",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.xjqy2",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "b91bf25a-b8a2-46c2-ad66-7026233b6c5c",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试公司迁移",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csgsqy",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "65dbe512-00eb-46a4-8c18-66067b228bf4",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "zjw测试单位",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.zjwcsdw",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "489845e7-6432-4e65-ab39-f89011222929",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试邮箱同步",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csyxtb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "c9546e72-505c-4bb3-b091-6938e2975afd",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "新建部门2",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.xjbm2",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "2ab8026805db5dc262b75fcd48754956",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.cs",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "c3fa8fec707537f53b8a3190567d6a44",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试部门",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csbm",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "d6f27772bd05674460ca6e6ab79732fb",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试单位0102",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csdw0102",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "711e64d41067f94d3eaecb3c266dca2e",
+                "parent_id": "d6f27772bd05674460ca6e6ab79732fb",
+                "org_name": "测试单位0103",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.cfcsgs2.csdw0102.csdw0103",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c171e292-109f-4aaa-babf-b053c65f6798",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试部门",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csbm",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "067522df9081d4c89b9c13dd3a96743a",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "123",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.123",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "9ab3dc99-1953-4889-a9ab-5e1ae24d97a6",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试123fff",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.cs123fff",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "f652627c-55f0-40c2-9dfc-81d94e632500",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "软件开发部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.rjkfb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "aa2b4db9c16043a5823aba8d2ee3cd34",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "致远测试01",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.zycs01",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "6f3cf518f789d4a048f9526951a205b0",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "B2组团项目部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.b2ztxmb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "4d268311-3d08-4525-ac74-64a04b67f56c",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "单位邮箱测试一二",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.dwyxcsye",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "b29bd4f735115be45b2f4e88b5bf9aee",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试二十五",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csesw",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "22123995a8d034fccae168271ee26614",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试0729",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.cs0729",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "a94384ba808b6aca73502d0098db6ca1",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试公司1",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csgs1",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "5de342214b7766e9bc3d6dedda2bbd3a",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试同步单位",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.cstbdw",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "936f038c-29c3-4275-8a38-a1b260e09008",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "部门2",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.bm2",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "d1516bd3a999d4f515ce76b213931497",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试单位0102",
+            "right_company": 1,
+            "order_code": 5,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csdw0102",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "df3303caf8f682f30cac75b6c01e5c9e",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "test",
+            "right_company": 1,
+            "order_code": 17,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.test",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "92d4f32a7ada9e5e0875fae0f5fbfb9d",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "test",
+            "right_company": 1,
+            "order_code": 24,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.test",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "da90ed7540edbd102f963992d8478690",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "test",
+            "right_company": 1,
+            "order_code": 29,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.test",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "9aa833c72b660ab0c0c3887897961aa4",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "微信同步",
+            "right_company": 1,
+            "order_code": 50,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.wxtb",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "ad36470e8a2b714652da51d9720db840",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "邮箱微信测试",
+            "right_company": 1,
+            "order_code": 70,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.yxwxcs",
+            "physicalLevel": 3,
+            "children": [
+              {
+                "id": "a15c1ff5fab3babb6977cdebe5041370",
+                "parent_id": "ad36470e8a2b714652da51d9720db840",
+                "org_name": "邮箱公司",
+                "right_company": 1,
+                "order_code": 1,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.cfcsgs2.yxwxcs.yxgs",
+                "physicalLevel": 4,
+                "children": []
+              },
+              {
+                "id": "81389cb45e89b559d91539f21fa0d8d1",
+                "parent_id": "ad36470e8a2b714652da51d9720db840",
+                "org_name": "微信公司",
+                "right_company": 1,
+                "order_code": 2,
+                "org_level": 4,
+                "hierarchy_code": "zgtjdcjt.cfcsgs2.yxwxcs.wxgs",
+                "physicalLevel": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "3eba88c7c1db158c8f12b2d451c78701",
+            "parent_id": "7f79e9e24f83909fad73059571668a16",
+            "org_name": "测试单位0102",
+            "right_company": 1,
+            "order_code": 99,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cfcsgs2.csdw0102",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "6e2d529c77ddaae96482a444e897079f",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "杰佛测试",
+        "right_company": 1,
+        "order_code": 32,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.jfcs",
+        "physicalLevel": 2,
+        "children": []
+      },
+      {
+        "id": "a511b7ca762d8aa5d496f2e46e1d6f51",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "测试微信同步",
+        "right_company": 1,
+        "order_code": 33,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.cswxtb",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "564b0265484da33838b362f8c71a4068",
+            "parent_id": "a511b7ca762d8aa5d496f2e46e1d6f51",
+            "org_name": "单位3",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.cswxtb.dw3",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "2ca5f31107a9a1f0923716328ebbaea8",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "权限测试",
+        "right_company": 1,
+        "order_code": 99,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.qxcs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "88b614ed85456e07052988c1937ffdde",
+            "parent_id": "2ca5f31107a9a1f0923716328ebbaea8",
+            "org_name": "权限测试三级单位",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.qxcs.qxcssjdw",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "009c58211a0302db02307dcf228fbd4f",
+            "parent_id": "2ca5f31107a9a1f0923716328ebbaea8",
+            "org_name": "权限测试新",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.qxcs.qxcsx",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "f9f3f4a26add6e2ba72c64996e065936",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "通讯录测试",
+        "right_company": 1,
+        "order_code": 100,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.txlcs",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "3b506452a433cec2ec6a828e3a0390be",
+            "parent_id": "f9f3f4a26add6e2ba72c64996e065936",
+            "org_name": "单位4",
+            "right_company": 1,
+            "order_code": 4,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.txlcs.dw4",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "913cf7bcef8a44963074d77bd6564f85",
+            "parent_id": "f9f3f4a26add6e2ba72c64996e065936",
+            "org_name": "单位5",
+            "right_company": 1,
+            "order_code": 5,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.txlcs.dw5",
+            "physicalLevel": 3,
+            "children": []
+          },
+          {
+            "id": "1b947abc-afad-1504-3008-1f98009cb007",
+            "parent_id": "f9f3f4a26add6e2ba72c64996e065936",
+            "org_name": "12312",
+            "right_company": 1,
+            "order_code": 6,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.txlcs.123",
+            "physicalLevel": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "8171298a-3c1c-b21c-6753-9bcefcd22b14",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "衡泽地产(重庆)",
+        "right_company": 1,
+        "order_code": 101,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.HZRJ",
+        "physicalLevel": 2,
+        "children": [
+          {
+            "id": "1b947aa5-afad-1504-3008-1f98009cb007",
+            "parent_id": "8171298a-3c1c-b21c-6753-9bcefcd22b14",
+            "org_name": "综合管理部",
+            "right_company": 1,
+            "order_code": 1,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.HZRJ.zhglb",
+            "physicalLevel": 3
+          },
+          {
+            "id": "1b947aaf-afad-1504-3008-1f98009cb007",
+            "parent_id": "8171298a-3c1c-b21c-6753-9bcefcd22b14",
+            "org_name": "财务部",
+            "right_company": 1,
+            "order_code": 2,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.HZRJ.cwb",
+            "physicalLevel": 3
+          },
+          {
+            "id": "1b948063-afad-1504-3008-1f98009cb007",
+            "parent_id": "8171298a-3c1c-b21c-6753-9bcefcd22b14",
+            "org_name": "实施部",
+            "right_company": 1,
+            "order_code": 3,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.HZRJ.SSB",
+            "physicalLevel": 3
+          },
+          {
+            "id": "1278bc0c-b6f6-1504-3008-1f98009cb007",
+            "parent_id": "8171298a-3c1c-b21c-6753-9bcefcd22b14",
+            "org_name": "费用系统演示公司",
+            "right_company": 1,
+            "order_code": 4,
+            "org_level": 3,
+            "hierarchy_code": "zgtjdcjt.HZRJ.000",
+            "physicalLevel": 3
+          }
+        ]
+      },
+      {
+        "id": "a6e20183-e912-f6fb-3314-9bceba424f3d",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "重庆公司-蒋勇",
+        "right_company": 1,
+        "order_code": 101,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.DEFAULT",
+        "physicalLevel": 2
+      },
+      {
+        "id": "1b948071-afad-1504-3008-1f98009cb007",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "用户开发平台测试",
+        "right_company": 1,
+        "order_code": 102,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.YHKFPKCE",
+        "physicalLevel": 2
+      },
+      {
+        "id": "1278b940-b6f6-1504-3008-1f98009cb007",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "公司",
+        "right_company": 1,
+        "order_code": 103,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.test",
+        "physicalLevel": 2
+      },
+      {
+        "id": "1278bc1b-b6f6-1504-3008-1f98009cb007",
+        "parent_id": "003200000000000000000000000000",
+        "org_name": "费用系统演示公司",
+        "right_company": 1,
+        "order_code": 104,
+        "org_level": 2,
+        "hierarchy_code": "zgtjdcjt.000",
+        "physicalLevel": 2
+      }
+    ]
+  }
+]
