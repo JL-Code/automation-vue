@@ -107,7 +107,7 @@ cmd_finish() {
   fi
 
   # delete branch
-  # 删除分支
+  # 删除修复分支
   if noflag keep; then
     git_do branch -d "$BRANCH"
   fi
