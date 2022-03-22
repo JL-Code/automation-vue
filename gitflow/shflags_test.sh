@@ -7,9 +7,12 @@ parse_args() {
   # parse options
   # 解析选项
   FLAGS "$@" || exit $?
+  echo "FLAGS_ARGV：$FLAGS_ARGV"
   eval set -- "${FLAGS_ARGV}"
-  echo "parse_args-FLAGS_ARGV: $FLAGS_ARGV"
-  echo "parse_args-FLAGS_fetch: $FLAGS_fetch"
+  echo "=="
+  echo "==================set=================="
+  set
+  echo "==================set=================="
 }
 
 run() {
