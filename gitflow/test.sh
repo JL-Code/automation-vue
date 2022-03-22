@@ -62,7 +62,10 @@ cmd_finish() {
   # 尝试合并到 master
   # 如果之前尝试完成此发布分支失败，
   # 但是合并到 master 是成功的，我们现在跳过它
-  # 可以通过 git merge 的 -m 选项直接传递 commit message
+  # 可以通过下面的方式禁用合并消息的交互
+  # 1. 通过 git merge 的 -m 选项直接传递 commit message .
+  # 2. export GIT_MERGE_AUTOEDIT=no 禁用合并消息编辑器
+  # 3. git merge --no-edit 禁用消息编辑器
   if ! git_is_branch_merged_into "$BRANCH" "$MASTER_BRANCH"; then
     git_do checkout "$MASTER_BRANCH" ||
       die "Could not check out $MASTER_BRANCH."
