@@ -362,5 +362,5 @@ gitflow_load_settings() {
   export ORIGIN=$(git config --get gitflow.origin || echo origin)
 }
 
-# cmd_finish "$@"
-cmd_finish 21262 -m "test.shhotfixfinish"
+cmd_finish "$@"
+# cmd_finish 21262 -m "test.shhotfixfinish"
