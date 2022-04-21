@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "cbuild": "node build/build-adapter build",
+    "cbuild": "node .build/adapter build",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "release": "standard-version",
