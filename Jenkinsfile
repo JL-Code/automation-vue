@@ -76,7 +76,7 @@ pipeline {
             steps {
                 nodejs(nodeJSInstallationName: 'NodeJS-12.18.4', configId: null) {
                     sh """npm run release ebs ${GLOBAL_TAG}"""
-                    sh 'npm run build'
+                    sh 'npm run cbuild -- --file=src/apps/ebs/manifest.json'
                 }
             }
             post {
