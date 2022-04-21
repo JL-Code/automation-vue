@@ -24,6 +24,7 @@ pipeline {
         stage("Config") {
             steps {
                 echo sh(returnStdout: true, script: 'env')
+                sh "echo $0"
                 script {
                     GLOBAL_TAG = params.IMAGE_TAG
                     if (GLOBAL_TAG == '' || GLOBAL_TAG.length() == 0) {
