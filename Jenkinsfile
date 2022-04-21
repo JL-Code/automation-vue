@@ -15,7 +15,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'IMAGE_TAG', defaultValue: '', description: '镜像标签,默认版本号为时间戳「20210209133014508」可自定义版本号。（版本号会在 maven 打包、docker 构建镜像时用到）')
+        string(name: 'IMAGE_TAG', defaultValue: '', description: '镜像标签,默认版本号为时间戳「20210209.1330.14508」可自定义版本号。（版本号会在 maven 打包、docker 构建镜像时用到）')
         booleanParam(name: 'SKIP_RELEASE', defaultValue: true, description: '跳过发版动作')
         booleanParam(name: 'SKIP_TEST', defaultValue: true, description: '跳过测试阶段（默认为 true）')
         choice(name: 'ENV', choices: ENVs,description: ENV_DESC)
@@ -28,7 +28,7 @@ pipeline {
                     GLOBAL_TAG = params.IMAGE_TAG
                     if (GLOBAL_TAG == '' || GLOBAL_TAG.length() == 0) {
                         Date date = new Date();
-                        String dateStr = new SimpleDateFormat("yyyyMMddHHmmssS").format(date);
+                        String dateStr = new SimpleDateFormat("yyyyMMdd.HHmm.ssS").format(date);
                         GLOBAL_TAG = dateStr;
                     }
                     if (params.ENV.length() == 0) {
