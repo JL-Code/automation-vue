@@ -1,0 +1,36 @@
+module.exports = [
+  {
+    type: "feat",
+    section: "✨ Features | 新功能",
+  },
+  {
+    type: "fix",
+    section: "🐛 Bug Fixes | 修复缺陷",
+  },
+  {
+    type: "chore",
+    hidden: true,
+  },
+  {
+    type: "docs",
+    hidden: true,
+  },
+  {
+    type: "style",
+    hidden: true,
+  },
+  {
+    type: "refactor",
+    hidden: true,
+    section: "🪄 重构代码。不包括 bug 修复、功能新增",
+  },
+  {
+    type: "perf",
+    hidden: true,
+    section: "🚀 性能优化",
+  },
+  {
+    type: "test",
+    hidden: true,
+  },
+];
