@@ -16,7 +16,7 @@ pipeline {
 
     parameters {
         string(name: 'IMAGE_TAG', defaultValue: '', description: '镜像标签,默认版本号为时间戳「20210209133014508」可自定义版本号。（版本号会在 maven 打包、docker 构建镜像时用到）')
-        booleanParam(name: 'SKIP_RELEASE', defaultValue: false, description: '跳过发版阶段')
+        booleanParam(name: 'SKIP_RELEASE', defaultValue: true, description: '跳过发版动作')
         booleanParam(name: 'SKIP_TEST', defaultValue: true, description: '跳过测试阶段（默认为 true）')
         choice(name: 'ENV', choices: ENVs,description: ENV_DESC)
     }
@@ -38,14 +38,12 @@ pipeline {
                     sh """sed -i '\$a IMAGE_TAG=${GLOBAL_TAG}' ./.build/.env.${params.ENV}"""
                     // 替换指定环境的配置文件为  .env.production
                     if (params.ENV != 'production') {
-                        sh """
-                            cp .env.${params.ENV} .env.production
-                            """
+                        sh """ cp .env.${params.ENV} .env.production """
                     }
                     withPythonEnv('/usr/bin/python') {
                         // sh 步骤的执行上下文是独立的。在 worksapce 路径执行  sh "cd build" 后再执行 sh "pwd" 得到的目录并不是 build  而是 worksapce
-                        sh """cd ./.build && python env_replace.py replace docker-compose-template.yml docker-compose.yml .env.${params.ENV}"""
-                        sh """cd ./.build && python env_replace.py replace ./nginx-template.conf ../nginx.conf .env.${params.ENV}"""
+                        sh """cd ./.build && python env_replace.py replace ./template/docker-compose-template.yml ./target/docker-compose.yml ./env/.env.${params.ENV}"""
+                        sh """cd ./.build && python env_replace.py replace ./template/nginx-template.conf ./target/nginx.conf ./env/.env.${params.ENV}"""
                     }
                 }
             }
@@ -62,7 +60,6 @@ pipeline {
             }
         }
         stage('Test') {
-            // 根据 SKIP_TEST 条件判断是否进行单元测试
             when {
                 expression { return !params.getOrDefault('SKIP_TEST', true) }
             }
@@ -75,14 +72,14 @@ pipeline {
         stage('Build') {
             steps {
                 nodejs(nodeJSInstallationName: 'NodeJS-12.18.4', configId: null) {
-                    sh """npm run release ebs ${GLOBAL_TAG}"""
+                    sh """npm run release -- --release-as ${GLOBAL_TAG} ${params.SKIP_RELEASE ? '--skip.tag' : ''}"""
                     sh 'npm run cbuild -- --file=src/apps/ebs/manifest.json'
                 }
             }
             post {
                 success {
                     sh "tar -czf dist.tar.gz dist/"
-                    archiveArtifacts artifacts: """dist.tar.gz,.build/docker-compose.yml,.env.${params.ENV}""", fingerprint: true
+                    archiveArtifacts artifacts: """dist.tar.gz,.build/target/,env/.env.${params.ENV}""", fingerprint: true
                 }
             }
         }
