@@ -35,7 +35,7 @@ pipeline {
                         throw new Exception("请选择运行环境")
                     }
                     // 在 .env.[MODE] 文件后追加内容
-                    sh """sed -i '\$a IMAGE_TAG=${GLOBAL_TAG}' ./.build/.env.${params.ENV}"""
+                    sh """sed -i '\$a IMAGE_TAG=${GLOBAL_TAG}' ./.build/env/.env.${params.ENV}"""
                     // 替换指定环境的配置文件为  .env.production
                     if (params.ENV != 'production') {
                         sh """ cp .env.${params.ENV} .env.production """
