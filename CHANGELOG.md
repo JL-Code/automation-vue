@@ -1,4 +1,28 @@
 变更日志
+## [2.1.0-hotfix.21852](https://github.com/JL-Code/automation-vue/compare/v2.5.0...v2.1.0-hotfix.21852) (2022-04-21)
+
+
+### 🐛 Bug Fixes | 修复缺陷
+
+* 调整方法参数支撑debug ([ffc5db2](https://github.com/JL-Code/automation-vue/commit/ffc5db2ca2a62cf04bfeb881af1781fc2a5299d0))
+* 调整方法参数支撑debug ([83065f0](https://github.com/JL-Code/automation-vue/commit/83065f07692dcb28953bb26a1fd1d567865ca8a9))
+* 调整方法参数支撑debug ([4b002d1](https://github.com/JL-Code/automation-vue/commit/4b002d1e55bc8c93b1f3f55904d716c23200d28a))
+* 调整方法参数支撑debug ([3b64d51](https://github.com/JL-Code/automation-vue/commit/3b64d51eb4e67711b7b71191f9bd0a69ed5266db))
+* 调整方法参数支撑debug ([ad18023](https://github.com/JL-Code/automation-vue/commit/ad1802351d61a2f86ee0153a54fce79c47dce402))
+* 增加git_is_branch_merged_into函数 ([612b570](https://github.com/JL-Code/automation-vue/commit/612b57095feb1ed7f1b193e80569095c682ebad8))
+* add init call ([a8b12f3](https://github.com/JL-Code/automation-vue/commit/a8b12f341ab37b2d8feed1e1158f61b6b39159e5))
+
+
+### ✨ Features | 新功能
+
+* 更新 ([f4d5851](https://github.com/JL-Code/automation-vue/commit/f4d5851e101498e52eb51a1e0d4415e5b0913293))
+* 增加cbuild 命令 ([de25b09](https://github.com/JL-Code/automation-vue/commit/de25b09a13c93871fff1b8c1556be9d12efd8980))
+* 增加gitflow-hotfix test.sh ([d79cdd1](https://github.com/JL-Code/automation-vue/commit/d79cdd111d4658d075c4369048c0abe76691d024))
+* 增加gitflow-hotfix test.sh ([243f298](https://github.com/JL-Code/automation-vue/commit/243f29899b0d9bb009074538757d684faef9b0f7))
+* 增加gitflow-hotfix test.sh ([e97839b](https://github.com/JL-Code/automation-vue/commit/e97839b09643cf3724ca21f8adf9239bf9e57c92))
+* 增加util.tree.js ([0bb3a6b](https://github.com/JL-Code/automation-vue/commit/0bb3a6bfb146cae9f0d35dda0795154281b0e7fe))
+* release ([335e205](https://github.com/JL-Code/automation-vue/commit/335e2059f4a8dea75fe7d73bd037443a887f2870))
+
 ## [2.5.0](https://github.com/JL-Code/automation-vue/compare/v2.4.5...v2.5.0) (2022-02-20)
 
 
