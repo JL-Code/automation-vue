@@ -44,7 +44,6 @@ def replace_yaml_temp(yaml_file, new_yaml_file, env_file):
         print("Error: " + format(str(e)))
         raise
 
-# TODO: 考虑增加参数默认值支持. 考虑增加注释符号过滤 .
 def prop_value(env_file):
     profileList = {}
     with open(env_file) as profile:
